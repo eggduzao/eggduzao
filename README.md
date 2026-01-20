@@ -1,9 +1,9 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,100:10344a&height=280&section=header&text=EDUARDO%20GADE%20GUSMAO&fontSize=72&fontColor=e9eef2&animation=fadeIn&fontAlignY=35&desc=MACHINE%20LEARNING%20RESEARCHER%20•%20BIOINFORMATICS%20PROJECT%20MANAGER&descAlignY=55&descSize=20" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,100:10344a&height=280&section=header&text=EDUARDO%20GADE%20GUSMAO&fontSize=62&fontColor=e9eef2&animation=fadeIn&fontAlignY=35&desc=MACHINE%20LEARNING%20RESEARCHER%20%20%20%20•%20%20%20%20BIOINFORMATICS%20PROJECT%20MANAGER&descAlignY=55&descSize=20" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=8B7CFF&center=true&vCenter=true&multiline=false&width=700&height=70&lines=Machine+/+Deep+Learning+Researcher+%7C+Applied+Scientist;Computational+Biology+Engineer+%7C+Bioinformatics+Researcher;Open+Source+Contributor+%7C+Technical+Writer;Reproducible+Data+Engineer+%7C+Project+Manager" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=8B7CFF&center=true&vCenter=true&multiline=false&width=700&height=70&lines=Machine+Learning+Researcher+%7C+Applied+Scientist;Bioinformatics+Researcher+%7C+Data+Engineer;Open+Source+Contributor+%7C+Technical+Writer;Reproducible+MLOps+%7C+Project+Manager" alt="Typing SVG" />
 </div>
 
 ---
