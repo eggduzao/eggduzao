@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/refs/heads/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+
+  "include": ["src", "tests"],
+  "exclude": ["build", "dist", ".nox", ".venv", "docs/_build", "**/__pycache__"],
+
+  "typeCheckingMode": "strict",
+
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Darwin",
+
+  "reportMissingImports": "error",
+  "reportMissingTypeStubs": "none",
+  "reportUnusedImport": "warning",
+  "reportUnusedVariable": "warning",
+  "reportPossiblyUnboundVariable": "warning",
+
+  "venvPath": "/Users/egg/micromamba/envs",
+  "venv": "egg",
+
+  "executionEnvironments": [
+    {
+      "root": "/Users/egg/Projects/eggduzao/",
+      "extraPaths": ["stack_overflow/"]
+    }
+  ]
+}
