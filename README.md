@@ -6,6 +6,30 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=8B7CFF&center=true&vCenter=true&multiline=false&width=700&height=70&lines=Machine+Learning+Researcher+%7C+Applied+Scientist;Bioinformatics+Researcher+%7C+Data+Engineer;Open+Source+Contributor+%7C+Technical+Writer;Reproducible+MLOps+%7C+Project+Manager" alt="Typing SVG" />
 </div>
 
+<p align="center">
+
+  <a href="https://www.gusmaolab.org" target="_blank">
+    <img src="https://skillicons.dev/icons?i=haxeflixel" width="45" height="45" alt="Gusmao Lab Website"/>
+  </a><br>
+
+  <a href="mailto:eduardo@gusmaolab.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" width="45" height="45" alt="Email"/>
+  </a><br>
+
+  <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="45" height="45" alt="LinkedIN"/>
+  </a><br>
+
+  <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
+    <img src="https://skillicons.dev/icons?i=stackoverflow" width="45" height="45" alt="Stack Overflow"/>
+  </a><br>
+
+  <a href="https://dev.to/eduardogade" target="_blank">
+    <img src="https://skillicons.dev/icons?i=devto" width="45" height="45" alt="Dev.to"/>
+  </a><br>
+
+</p>
+
 ---
 
 ## 📬 GET IN TOUCH
