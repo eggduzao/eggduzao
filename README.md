@@ -46,10 +46,12 @@ Cheers!
 
 ### MACHINE LEARNING & BIOINFORMATICS
 
-<img src="https://img.shields.io/badge/Role-Lead_Engineer-3b82f6?style=flat-square&logo=rocket&logoColor=ffffff&labelColor=0f172a"/>
+<div align="center">
+  <img src="https://img.shields.io/badge/Role-Lead_Engineer-3b82f6?style=flat-square&logo=rocket&logoColor=ffffff&labelColor=0f172a"/>
+</div>
 
 - **Machine Learning Engineer** 
-  - Crafting efficient systems, leveraging variational inference
+  - Efficient systems leveraging variational inference
   - Delivered [25+ full production solutions](https://www.gusmaolab.org)
   - Combined operating margin [growth of ~175%](https://www.gusmaolab.org)
   
