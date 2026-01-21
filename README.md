@@ -8,7 +8,7 @@
 
 ---
 
-## ``whois`` PROFILE 💼
+## 💼 <br> ``whois`` <p align="center"> PROFILE</p>
 
 ### ABOUT
 
