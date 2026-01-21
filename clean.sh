@@ -117,25 +117,4 @@ find_del_files "$FIND_ROOT" \( -name "*~" -o -name "*.swp" -o -name "*.bak" \)
 info "Compiled extensions (optional)"
 find_del_files "$FIND_ROOT" -name "*.so"
 
-# --- Optional: auto-commit & push (personal repo only) ------------------------
-AUTO_GIT="${AUTO_GIT:-0}"
-
-if [[ "$AUTO_GIT" == "0" ]]; then
-  if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-    echo "✨ Git autopilot engaged"
-
-    # Avoid committing nothing
-    if ! git diff --quiet || ! git diff --cached --quiet; then
-      git add -A
-      git commit -m "update personal repo"
-      git push
-      echo "🚀 Changes committed and pushed"
-    else
-      echo "🫧 Nothing to commit"
-    fi
-  else
-    echo "⚠️  Not a git repository — skipping git autopilot"
-  fi
-fi
-
 ok "Everything Done Under the Sun."
