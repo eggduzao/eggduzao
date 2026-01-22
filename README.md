@@ -8,99 +8,21 @@
 
 ---
 
-
-
-<div width="500" align="center">
-HEJ
-</div>
-
-<table border="0" cellpadding="0" cellspacing="0">
+<!-- <table border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
     <td width="80" align="center">💼</td>
     <td width="400" align="right"><code>$ whois</code></td>
   </tr>
-</table>
+</table> -->
 
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="320" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="50" align="center">💼</td>
-    <td width="320" align="right"><code>$ whois</code></td>
-  </tr>
-</table>
-
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="800" align="left"><strong>A A A A A A A A A A A A B B B C C C C D D D E E E E F F F F G G G G H H H I I I A A</strong></td>
-  </tr>
-</table>
-
-<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0">
-  <table cellpadding="0" cellspacing="0">
-    <tbody><tr>
-      <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
-      <td width="80" align="center">💼</td>
-      <td width="400" align="right"><code>$ whois</code></td>
-    </tr></tbody>
-  </table>
-</markdown-accessiblity-table>
-
-<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0">
-  <table cellpadding="0" cellspacing="0">
-    <tbody><tr border-top="0px">
-      <td padding="0px 0px" border="0px" width="400" align="left"><strong>[ PROFILE ]</strong></td>
-      <td padding="0px 0px" border="0px" width="80" align="center">💼</td>
-      <td padding="0px 0px" border="0px" width="400" align="right"><code>$ whois</code></td>
-    </tr></tbody>
-  </table>
-</markdown-accessiblity-table>
-
-background-color: var(--bgColor-default, var(--color-canvas-default));
-border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));
-
-padding: 6px 13px;
-border: 1px solid var(--borderColor-default, var(--color-border-default));
-
-
-<pre><strong>PROFILE</strong>              💼              <code>whois</code></pre>
-
-<pre display="background"><strong>PROFILE</strong>              💼              <code>whois</code></pre>
-
-<h3><pre><strong>PROFILE</strong>              💼              <code>whois</code></pre></h3>
-
-
-HEYYYYYYYYYYYYYYY
-
-
-<p>
+<h3><p>
   <strong>[ PROFILE ]</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code>$ whois</code>
-</p>
-
-
-<svg width="100%" height="24" viewBox="0 0 1000 24" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="18" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700">[ PROFILE ]</text>
-  <text x="500" y="18" font-size="16" text-anchor="middle">💼</text>
-  <text x="1000" y="18" font-size="16" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$ whois</text>
-</svg>
-
-
-<svg width="880" height="24" viewBox="0 0 880 24" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="18" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700">[ PROFILE ]</text>
-  <text x="400" y="18" font-size="16" text-anchor="middle">💼</text>
-  <text x="700" y="18" font-size="16" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$ whois</text>
-</svg>
-
-
-<pre>[ PROFILE ]                               💼                               $ whois</pre>
-
-
-<h3 align="left">[ PROFILE ] <span align="center">💼</span> <code>$ whois</code></h3>
-
+</p></h3>
 
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
 
