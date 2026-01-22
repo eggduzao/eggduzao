@@ -89,6 +89,13 @@ HEYYYYYYYYYYYYYYY
 </svg>
 
 
+<svg width="880" height="24" viewBox="0 0 880 24" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="18" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700">[ PROFILE ]</text>
+  <text x="400" y="18" font-size="16" text-anchor="middle">💼</text>
+  <text x="700" y="18" font-size="16" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$ whois</text>
+</svg>
+
+
 <pre>[ PROFILE ]                               💼                               $ whois</pre>
 
 
