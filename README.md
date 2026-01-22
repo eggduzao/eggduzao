@@ -8,11 +8,9 @@
 
 ---
 
-<p align="center" width="100%">
-<div>
+<div align="center" width="100%">
 HEJ
 </div>
-</p>
 
 <table>
   <tr>
