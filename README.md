@@ -8,7 +8,24 @@
 
 ---
 
-## 💼 ``whois`` <p align="right">PROFILE</p>
+<table width="100%">
+  <tr>
+    <td align="left"><strong>[ PROFILE ]</strong></td>
+    <td align="center">💼</td>
+    <td align="right"><code>$ whois</code></td>
+  </tr>
+</table>
+
+Honey,
+
+I am creating my Github landing page ``README.md`` with ultra-fancy formatting. My first question is:
+
+1. Assume I have three "elements" in my "section titles":
+- A name which should be all-left aligned, e.g. "PROFILE"
+- An emoji which should be centered (in the same line). E.g. A briefcase emoji
+- A "section name as a code"-joke which should be all-right aligned (e.g. ``whois``)
+
+How do I do that?
 
 ### ABOUT
 
