@@ -8,17 +8,17 @@
 
 ---
 
-<p align="center" width="1000">
-<div align="center" width="1000">
+<p align="center" width="100%">
+<div>
 HEJ
 </div>
 </p>
 
-<table border="0" cellpadding="0" cellspacing="0" width="1000px">
+<table>
   <tr>
-    <td width="90%" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="40%" align="center">💼</td>
-    <td width="90%" align="right"><code>$ whois</code></td>
+    <td width="80%" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="20%" align="center">💼</td>
+    <td width="80%" align="right"><code>$ whois</code></td>
   </tr>
 </table>
 
