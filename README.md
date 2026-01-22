@@ -36,13 +36,32 @@ HEJ
   </tr>
 </table>
 
-<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0"><table cellpadding="0" cellspacing="0">
-  <tbody><tr>
-    <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="80" align="center">💼</td>
-    <td width="400" align="right"><code>$ whois</code></td>
-  </tr>
-</tbody></table></markdown-accessiblity-table>
+<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0">
+  <table cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
+      <td width="80" align="center">💼</td>
+      <td width="400" align="right"><code>$ whois</code></td>
+    </tr></tbody>
+  </table>
+</markdown-accessiblity-table>
+
+<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0">
+  <table cellpadding="0" cellspacing="0">
+    <tbody><tr border-top="0px">
+      <td padding="0px 0px" border="0px" width="400" align="left"><strong>[ PROFILE ]</strong></td>
+      <td padding="0px 0px" border="0px" width="80" align="center">💼</td>
+      <td padding="0px 0px" border="0px" width="400" align="right"><code>$ whois</code></td>
+    </tr></tbody>
+  </table>
+</markdown-accessiblity-table>
+
+background-color: var(--bgColor-default, var(--color-canvas-default));
+border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));
+
+padding: 6px 13px;
+border: 1px solid var(--borderColor-default, var(--color-border-default));
+
 
 <pre><strong>PROFILE</strong>              💼              <code>whois</code></pre>
 
