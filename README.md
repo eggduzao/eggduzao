@@ -8,9 +8,9 @@
 
 ---
 
-<p align="left">
-<div>
-  <table border="0" cellpadding="0" cellspacing="0" width="1000pt">
+<p align="left" width="1000">
+<div align="left" width="1000">
+  <table border="0" cellpadding="0" cellspacing="0" width="1000">
     <tr>
       <td width="90%" align="left"><strong>[ PROFILE ]</strong></td>
       <td width="40%" align="center">💼</td>
