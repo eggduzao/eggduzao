@@ -18,17 +18,6 @@
   </table>
 </div>
 
-Honey,
-
-I am creating my Github landing page ``README.md`` with ultra-fancy formatting. My first question is:
-
-1. Assume I have three "elements" in my "section titles":
-- A name which should be all-left aligned, e.g. "PROFILE"
-- An emoji which should be centered (in the same line). E.g. A briefcase emoji
-- A "section name as a code"-joke which should be all-right aligned (e.g. ``whois``)
-
-How do I do that?
-
 ### ABOUT
 
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
