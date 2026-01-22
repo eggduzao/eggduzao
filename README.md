@@ -9,7 +9,11 @@
 ---
 
 <div align="center" width="100%">
-HEJ
+  <tr>
+    <td width="80%" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="20%" align="center">💼</td>
+    <td width="80%" align="right"><code>$ whois</code></td>
+  </tr>
 </div>
 
 <table>
