@@ -8,12 +8,14 @@
 
 ---
 
+<pre><strong>PROFILE</strong>              💼  <code>whois</code></pre>
+
 <div width=100%>
-  <tr>
-    <td width="500px" align="left"><strong>[ PROFILE ]                                          </strong></td>
+<!--   <tr>
+    <td width="200px" align="left"><strong>[ PROFILE ]</strong></td>
     <td width="50px" align="center">💼</td>
-    <td width="1000px" align="right"><code>$ whois</code></td>
-  </tr>
+    <td width="200px" align="right"><code>$ whois</code></td>
+  </tr> -->
 </div>
 
 <table>
