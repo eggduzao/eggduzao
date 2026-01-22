@@ -8,7 +8,7 @@
 
 ---
 
-<div align="center" width="100%">
+<div>
   <tr>
     <td width="80%" align="left"><strong>[ PROFILE ]</strong></td>
     <td width="20%" align="center">💼</td>
