@@ -10,21 +10,23 @@
 
 
 
-<div style="width:200px;overflow:auto">
+<div width="500" align="center">
 HEJ
 </div>
 
 <table>
   <tr>
-    <td width="80" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="20" align="center">💼</td>
-    <td width="80" align="right"><code>$ whois</code></td>
+    <td width="300" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="60" align="center">💼</td>
+    <td width="300" align="right"><code>$ whois</code></td>
   </tr>
 </table>
 
 <pre><strong>PROFILE</strong>              💼              <code>whois</code></pre>
 
 <pre display="background"><strong>PROFILE</strong>              💼              <code>whois</code></pre>
+
+<h3><pre><strong>PROFILE</strong>              💼              <code>whois</code></pre></h3>
 
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
 
