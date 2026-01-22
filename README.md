@@ -8,13 +8,13 @@
 
 ---
 
-<p align="center">
+<p align="center" width="100%">
 <div>
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-      <td width="45%" align="left"><strong>[ PROFILE ]</strong></td>
-      <td width="10%" align="center">💼</td>
-      <td width="45%" align="right"><code>$ whois</code></td>
+      <td width="90%" align="left"><strong>[ PROFILE ]</strong></td>
+      <td width="40%" align="center">💼</td>
+      <td width="90%" align="right"><code>$ whois</code></td>
     </tr>
   </table>
 </div>
