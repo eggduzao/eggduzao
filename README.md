@@ -32,7 +32,7 @@ HEJ
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="500" align="left"><strong>A A A A A A A A A A A A B B B C C C C D D D E E E E F F F F G G G G H H H I I I A A</strong></td>
+    <td width="800" align="left"><strong>A A A A A A A A A A A A B B B C C C C D D D E E E E F F F F G G G G H H H I I I A A</strong></td>
   </tr>
 </table>
 
