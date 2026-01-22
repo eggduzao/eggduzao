@@ -69,6 +69,32 @@ border: 1px solid var(--borderColor-default, var(--color-border-default));
 
 <h3><pre><strong>PROFILE</strong>              💼              <code>whois</code></pre></h3>
 
+
+HEYYYYYYYYYYYYYYY
+
+
+<p>
+  <strong>[ PROFILE ]</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  💼
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>$ whois</code>
+</p>
+
+
+<svg width="100%" height="24" viewBox="0 0 1000 24" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="18" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700">[ PROFILE ]</text>
+  <text x="500" y="18" font-size="16" text-anchor="middle">💼</text>
+  <text x="1000" y="18" font-size="16" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$ whois</text>
+</svg>
+
+
+<pre>[ PROFILE ]                               💼                               $ whois</pre>
+
+
+<h3 align="left">[ PROFILE ] <span align="center">💼</span> <code>$ whois</code></h3>
+
+
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
 
 I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet (and occasionally argue, but that's ok, I am a trained diplomat).
