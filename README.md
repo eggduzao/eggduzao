@@ -8,6 +8,7 @@
 
 ---
 
+<p align="center">
 <div>
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
@@ -17,8 +18,7 @@
     </tr>
   </table>
 </div>
-
-### ABOUT
+</p>
 
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
 
