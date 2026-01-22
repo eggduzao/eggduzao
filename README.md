@@ -16,9 +16,9 @@ HEJ
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="360" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
     <td width="80" align="center">💼</td>
-    <td width="360" align="right"><code>$ whois</code></td>
+    <td width="400" align="right"><code>$ whois</code></td>
   </tr>
 </table>
 
@@ -32,9 +32,11 @@ HEJ
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="500" align="left"><strong>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</strong></td>
+    <td width="500" align="left"><strong>A A A A A A A A A A A A B B B C C C C D D D E E E E F F F F G G G G H H H I I I A A</strong></td>
   </tr>
 </table>
+
+
 
 <pre><strong>PROFILE</strong>              💼              <code>whois</code></pre>
 
