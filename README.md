@@ -1,9 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,100:10344a&height=280&section=header&text=EDUARDO%20GADE%20GUSMAO&fontSize=62&fontColor=e9eef2&animation=fadeIn&fontAlignY=35&desc=MACHINE%20LEARNING%20RESEARCHER%20%20%20%20•%20%20%20%20BIOINFORMATICS%20PROJECT%20MANAGER&descAlignY=55&descSize=20" />
 </div>
@@ -42,7 +36,13 @@ HEJ
   </tr>
 </table>
 
-
+<markdown-accessiblity-table data-catalyst="" cellpadding="0" cellspacing="0"><table cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="80" align="center">💼</td>
+    <td width="400" align="right"><code>$ whois</code></td>
+  </tr>
+</tbody></table></markdown-accessiblity-table>
 
 <pre><strong>PROFILE</strong>              💼              <code>whois</code></pre>
 
