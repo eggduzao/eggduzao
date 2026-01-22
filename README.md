@@ -14,11 +14,25 @@
 HEJ
 </div>
 
-<table>
+<table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="300" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="60" align="center">💼</td>
-    <td width="300" align="right"><code>$ whois</code></td>
+    <td width="360" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="80" align="center">💼</td>
+    <td width="360" align="right"><code>$ whois</code></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="320" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="50" align="center">💼</td>
+    <td width="320" align="right"><code>$ whois</code></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="500" align="left"><strong>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</strong></td>
   </tr>
 </table>
 
