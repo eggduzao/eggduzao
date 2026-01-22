@@ -8,17 +8,19 @@
 
 ---
 
-<p align="left" width="1000">
-<div align="left" width="1000">
-  <table border="0" cellpadding="0" cellspacing="0" width="1000">
-    <tr>
-      <td width="90%" align="left"><strong>[ PROFILE ]</strong></td>
-      <td width="40%" align="center">💼</td>
-      <td width="90%" align="right"><code>$ whois</code></td>
-    </tr>
-  </table>
+<p align="center" width="1000">
+<div align="center" width="1000">
+HEJ
 </div>
 </p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="1000px">
+  <tr>
+    <td width="90%" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="40%" align="center">💼</td>
+    <td width="90%" align="right"><code>$ whois</code></td>
+  </tr>
+</table>
 
 Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
 
