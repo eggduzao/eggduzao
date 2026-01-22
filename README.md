@@ -10,9 +10,9 @@
 
 <table width="100%">
   <tr>
-    <td width="40%" valign="center" halign="left"><strong>[ PROFILE ]</strong></td>
-    <td width="20%" valign="center" halign="center">💼</td>
-    <td width="40%" valign="center" halign="right"><code>$ whois</code></td>
+    <td width="40%" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="20%" align="center">💼</td>
+    <td width="40%" align="right"><code>$ whois</code></td>
   </tr>
 </table>
 
