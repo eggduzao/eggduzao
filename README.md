@@ -11,14 +11,14 @@
 
 
 <div width=100%>
-<pre><strong>PROFILE</strong>              💼  <code>whois</code></pre>
+<p><strong>PROFILE</strong>              💼              <code>whois</code></p>
 </div>
 
 <table>
   <tr>
-    <td width="80%" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="20%" align="center">💼</td>
-    <td width="80%" align="right"><code>$ whois</code></td>
+    <td width=80% align="left"><strong>[ PROFILE ]</strong></td>
+    <td width=20% align="center">💼</td>
+    <td width=80% align="right"><code>$ whois</code></td>
   </tr>
 </table>
 
