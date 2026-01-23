@@ -16,6 +16,8 @@
   </tr>
 </table> -->
 
+<img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10">
+
 <h3><p>
   <strong>[ PROFILE ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,29 +26,71 @@
   <code>$ whois</code>
 </p></h3>
 
-Hello, and welcome to my profile. My name is Eduardo, grab a cup of coffee and allow me introduce myself.
+- **Machine Learning & Data Systems** at the intersection of **Biology**, **Medicine**, and **Software Engineering**
+- Focused on **end-to-end ML systems**: from messy data -> reliable models -> long-lived production
+- Strong emphasis on **reproducibility**, **auditability**, and **systems that age well**
+- Experience spanning **ML pipelines**, **data engineering**, **cloud/HPC**, and **bioinformatics**
+<!-- - Currently open to **long-term, technically demanding roles** (on-site or hybrid) -->
 
-I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet (and occasionally argue, but that's ok, I am a trained diplomat).
+<details>
+<summary><em>I would like to know more…</em></summary>
 
-My work focuses on **End-to-End ML Systems**. Which means I take _messy real-world data_, _ingest_ (a fancy name for ETL) and _serve_ it hot and fresh for:
-- _Large-scale processing_: Things need to come and go smoothly.
-- _Model training_: Which is the act of using math to punish or reward learning machines. I once broke a gradient in an RNN's head, but they are fine, the gradient had vanished already!
-- _Deployment_: Which is yet another fancy term for when things are done.
-**I love doing it** and - for some reason - people pay me to do it - so I keep things running long after the excitement of _it works!__ has passed. I care deeply about **reliability**, **clarity of design**, and **systems that age well** - like a Madeira Wine.
+<br/>
 
-I have experience designing **Modular Data Pipelines**, **Scalable Data Engineering Architectures**, **Cloud Orchestrated Systems** and **ML Workflows** using _Python-centric_ stacks and modern _deep learning frameworks_. In practice, that usually means:
-- **Production ML** and **Data Pipelines** with strong _reproducibility_ and _auditability_,
-- _scalable_ processing for _high-volume analytical_ workloads,
-- _feature engineering layers_ that serve both _training_ and _inference_,
-- and **Bioinformatics Workflows** integrated with _HPC_ and _Cloud Environments_.
+Hello, and welcome to my profile. My name is Eduardo — grab a cup of coffee and allow me to introduce myself.
 
-I often work at the boundary between scientific complexity and engineering constraints, translating domains like _Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Immunohistochemistry_, _Microscopy_, _Spatial Transcriptomics_ and overall **Molecular Cell Biology & Precision Medicine** into _clear_, _testable_, and _auditable_ Computational Systems.
+I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet  
+(and occasionally argue — that’s fine, I’m a trained diplomat).
 
-I value **clean design**, **explicit trade-offs**, and **systems that are understandable by humans** - not just machines. **Ethics**, **reproducibility**, and **long-term sustainability** are not "nice to have"; they are part of the job.
+My work focuses on **end-to-end ML systems**. In practice, that means taking _messy real-world data_, _ingesting_ it (a fancy name for ETL), and serving it hot and fresh for:
 
-Currently open to on-site or hybrid roles and long-term, technically demanding projects. Relocation and onboarding typically require a few weeks of planning - good systems (and good moves) benefit from doing things properly.
+- **Large-scale processing** — things need to flow smoothly.
+- **Model training** — using math to reward or punish learning machines  
+  (I once broke a gradient in an RNN’s head, but it was already vanishing).
+- **Deployment** — when ideas meet reality and still have to behave.
 
-Cheers!
+I care deeply about **reliability**, **clarity of design**, and **systems that age well** — like a good Madeira wine.
+
+I have experience designing **modular data pipelines**, **scalable data engineering architectures**, **cloud-orchestrated systems**, and **ML workflows** using _Python-centric_ stacks and modern _deep learning frameworks_. This usually translates to:
+
+- **Production ML and data pipelines** with strong _reproducibility_ and _auditability_
+- _Scalable_ processing for _high-volume analytical_ workloads
+- _Feature engineering layers_ serving both _training_ and _inference_
+- **Bioinformatics workflows** integrated with _HPC_ and _cloud environments_
+
+I often work at the boundary between scientific complexity and engineering constraints, translating domains such as  
+_Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
+
+I value **clean design**, **explicit trade-offs**, and **systems that are understandable by humans** — not just machines.  
+**Ethics**, **reproducibility**, and **long-term sustainability** are not optional; they are part of the job.
+
+Currently open to on-site or hybrid roles and long-term projects.  
+Relocation and onboarding take planning — good systems (and good moves) benefit from doing things properly.
+
+Cheers.
+
+</details>
+
+<h3><p>
+  <strong>[ CAREER ]</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  💼
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>SELECT * FROM career;</code>
+</p></h3>
+
+### KEY CAREER MILESTONES
+
+- 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany
+- 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland
+- 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb
+- 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude
+- 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude
+
+<details>
+<summary><em>I would like to know more…</em></summary>
+
+<br/>
 
 ### CURRENT PROJECTS & IMPACT
 
@@ -55,6 +99,8 @@ Cheers!
 <table>
 <tr>
 <td width="50%" valign="top">
+
+
 
 ### MACHINE LEARNING & BIOINFORMATICS
 
@@ -114,6 +160,8 @@ Cheers!
 </table>
 
 </div>
+
+</details>
 
 ---
 
