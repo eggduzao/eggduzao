@@ -25,13 +25,13 @@
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
 
 
-<h3><p valign="center"> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15" valign="center"> &nbsp;&nbsp;&nbsp;
+<h3><p valign="center"> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="12" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">$ whois</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15"> </p></h3>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="13"> </p></h3>
 
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="5"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="6"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
