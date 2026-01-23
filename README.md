@@ -18,34 +18,15 @@
 
 
 
-<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> &nbsp;&nbsp;&nbsp;
+<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">$ whois</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15"> </p></h3>
 
-
-<code color="4da0b0ff">$ whois</code>
-
-<code color="4DA0B0FF">$ whois</code>
-
-<code colour="4DA0B0FF">$ whois</code>
-
-<code style="color=4DA0B0FF">$ whois</code>
-
-<code style="color=4DA0B0">$ whois</code>
-
-<code color="teal">$ whois</code>
-
-<code color="#4DA0B0FF">$ whois</code>
-
-<code color="#4DA0B0">$ whois</code>
-
-<code colour="4DA0B0">$ whois</code>
-
-- **Machine Learning & Data Systems** at the intersection of **Biology**, **Medicine**, and **Software Engineering**
+<img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; **Machine Learning & Data Systems** at the intersection of **Biology**, **Medicine**, and **Software Engineering**
 - Focused on **end-to-end ML systems**: from messy data -> reliable models -> long-lived production
 - Strong emphasis on **reproducibility**, **auditability**, and **systems that age well**
 - Experience spanning **ML pipelines**, **data engineering**, **cloud/HPC**, and **bioinformatics**
