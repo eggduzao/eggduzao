@@ -26,9 +26,9 @@
   <code color="#4da0b0ff">$ whois</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
 
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="5"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="6"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="8"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
 <!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
@@ -73,30 +73,26 @@ Cheers.
 
 </details>
 
-
-
-<h3><p>
+<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CAREER ]</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>SELECT * FROM career;</code>
-</p></h3>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code color="#4da0b0ff">SELECT * FROM career;</code>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
 
-### KEY CAREER MILESTONES
-
-- 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany
-- 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland
-- 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb
-- 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude
-- 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude </p>
 
 <details>
 <summary><em>I would like to know more…</em></summary>
 
 <br/>
-
-### CURRENT PROJECTS & IMPACT
 
 <div align="center">
 
@@ -104,11 +100,8 @@ Cheers.
 <tr>
 <td width="50%" valign="top">
 
-
-
-### MACHINE LEARNING & BIOINFORMATICS
-
 <div align="center">
+  <h3 align="center">KEY MILESTONES</h3>
   <img src="https://img.shields.io/badge/Role-Lead_Engineer-3b82f6?style=flat-square&logo=rocket&logoColor=ffffff&labelColor=0f172a"/>
 </div>
 
