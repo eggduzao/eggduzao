@@ -23,8 +23,13 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>$ whois</code>
+  <code color="#4da0b0ff">$ whois</code>
 </p></h3>
+
+
+<code color="4da0b0ff">$ whois</code>
+
+<code color="teal">$ whois</code>
 
 - **Machine Learning & Data Systems** at the intersection of **Biology**, **Medicine**, and **Software Engineering**
 - Focused on **end-to-end ML systems**: from messy data -> reliable models -> long-lived production
