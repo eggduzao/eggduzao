@@ -69,9 +69,9 @@ Relocation and onboarding take planning — good systems (and good moves) benefi
 
 Cheers.
 
----
-
 </details>
+
+---
 
 <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CAREER ]</strong>
