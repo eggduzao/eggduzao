@@ -18,7 +18,7 @@
 
 
 
-<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15"> &nbsp;&nbsp;&nbsp;
+<h3><p valign="center"> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   💼
@@ -26,11 +26,11 @@
   <code color="#4da0b0ff">$ whois</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="15"> </p></h3>
 
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; **Machine Learning & Data Systems** at the intersection of **Biology**, **Medicine**, and **Software Engineering** </p>
-- Focused on **end-to-end ML systems**: from messy data -> reliable models -> long-lived production
-- Strong emphasis on **reproducibility**, **auditability**, and **systems that age well**
-- Experience spanning **ML pipelines**, **data engineering**, **cloud/HPC**, and **bioinformatics**
-<!-- - Currently open to **long-term, technically demanding roles** (on-site or hybrid) -->
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
+<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
+<!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
 <details>
 <summary><em>I would like to know more…</em></summary>
