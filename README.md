@@ -16,35 +16,7 @@
   </tr>
 </table> -->
 
-<svg viewBox="0 0 800 32" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="22" text-anchor="start">AAA</text>
-  <text x="500" y="22" text-anchor="middle">BBB</text>
-  <text x="1000" y="22" text-anchor="end">CCC</text>
-</svg>
-
-<p>
-<svg viewBox="0 0 800 32" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="22" text-anchor="start">AAA</text>
-  <text x="500" y="22" text-anchor="middle">BBB</text>
-  <text x="1000" y="22" text-anchor="end">CCC</text>
-</svg>
-</p>
-
-<div>
-<svg viewBox="0 0 800 32" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="22" text-anchor="start">AAA</text>
-  <text x="500" y="22" text-anchor="middle">BBB</text>
-  <text x="1000" y="22" text-anchor="end">CCC</text>
-</svg>
-</div>
-
-<div><p>
-<svg viewBox="0 0 800 32" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="22" text-anchor="start">AAA</text>
-  <text x="500" y="22" text-anchor="middle">BBB</text>
-  <text x="1000" y="22" text-anchor="end">CCC</text>
-</p></svg>
-</div>
+<img src="https://www.gusmaolab.org/images/brand/try1.svg" width="880" valign="center">
 
 <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
