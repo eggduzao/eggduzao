@@ -16,7 +16,7 @@
   </tr>
 </table> -->
 
-<img src="https://www.gusmaolab.org/images/brand/try1.svg" width="880" valign="center">
+<!-- <img src="https://www.gusmaolab.org/images/brand/try1.svg" width="880">
 
 <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
@@ -26,7 +26,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">$ whois</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
+<h3>PROFILE&nbsp;&nbsp;&#9475;&nbsp;💡&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ whois</code></h3>
 
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
@@ -35,7 +36,7 @@
 <!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
 <details>
-<summary><em>I would like to know more…</em></summary>
+<summary><em>I would like to know more...</em></summary>
 
 <br/>
 
@@ -75,7 +76,7 @@ Cheers.
 
 ---
 
-<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+<!-- <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CAREER ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -84,6 +85,8 @@ Cheers.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">SELECT * FROM career;</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
+ -->
+<h3>CAREER&nbsp;&nbsp;&#9475;&nbsp;💼&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">SELECT * FROM career;</code></h3>
 
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
@@ -92,7 +95,7 @@ Cheers.
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude </p>
 
 <details>
-<summary><em>I would like to know more…</em></summary>
+<summary><em>I would like to know more...</em></summary>
 
 <br/>
 
@@ -102,11 +105,8 @@ Cheers.
 <tr>
 <td width="50%" valign="top">
 
-<pre>Just     testing     the    precision              </pre>
-
 <div align="center">
-  <h3 align="center">KEY MILESTONES</h3>
-  <img src="https://img.shields.io/badge/Role-Lead_Engineer-3b82f6?style=flat-square&logo=rocket&logoColor=ffffff&labelColor=0f172a"/>
+  <h4 align="center">KEY MILESTONES</h4>
 </div>
 
 - **Machine Learning Engineer** 
@@ -132,9 +132,9 @@ Cheers.
 </td>
 <td width="50%" valign="top">
 
-### WRITER AND EDUCATOR
-
-<img src="https://img.shields.io/badge/Role-Community_Leader-3b82f6?style=flat-square&logo=github&logoColor=ffffff&labelColor=0f172a"/>
+<div align="center">
+  <h4 align="center">WRITER AND EDUCATOR</h4>
+</div>
 
 - **Technical Writing, Blogging & Prose**
   - Maintains a technical blog at [GusmaoLab](https://www.gusmaolab.org/category/blog)
@@ -166,15 +166,16 @@ Cheers.
 
 ---
 
-<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+<!-- <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CV ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  📄
+  📄🪪💎
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">eduardo --help</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
+<h3>CV&nbsp;&nbsp;&#9475;&nbsp;💎&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">SELECT * FROM career;</code></h3>
 
 ```yaml
 Name: Eduardo G Gusmao
@@ -192,7 +193,7 @@ Development_Environment:
 ```
 
 <details>
-<summary><em>I would like to know more…</em></summary>
+<summary><em>I would like to know more...</em></summary>
 
 <br/>
 
@@ -265,17 +266,234 @@ Development_Environment:
 
 ---
 
-### ``gh repo list`` (Pinned Repositories) 📦
+<h3>CONTACT&nbsp;&nbsp;&#9475;&nbsp;📬&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
 
-Placeholder
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
 
 ---
 
+<h3>PINNED REPOSITORIES&nbsp;&nbsp;&#9475;&nbsp;📦&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ gh repo list</code></h3>
 
+Placeholder.
 
+<details>
+<summary><em>I would like to know more...</em></summary>
 
+<br/>
+
+Placeholder.
+
+</details>
 
 ---
+
+<h3>CONTRIBUTIONS&nbsp;&nbsp;&#9475;&nbsp;🤝&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>GITHUB STATISTICS&nbsp;&nbsp;&#9475;&nbsp;📊&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">diff --stat</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>GITHUB ANALYTICS&nbsp;&nbsp;&#9475;&nbsp;🎛️&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>TECHNOLOGY STACK&nbsp;&nbsp;&#9475;&nbsp;🛠️&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ ls /usr/bin</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>RESEARCH&nbsp;&nbsp;&#9475;&nbsp;🧪&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">wandb.init()</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>WRITTING & COMMUNICATION&nbsp;&nbsp;&#9475;&nbsp;📝&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ cat notes.md</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>AVAILABILITY&nbsp;&nbsp;&#9475;&nbsp;🌍&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">#include < chrono></code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>ROADMAP&nbsp;&nbsp;&#9475;&nbsp;🧭&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>EDUCATION&nbsp;&nbsp;&#9475;&nbsp;🎓&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ wget -r -np -nd -A '*.pdf' --wait=1 https://gusmaolab.com/docs/</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>PHILOSOPHY & ETHICS&nbsp;&nbsp;&#9475;&nbsp;🧬&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">public static final String VALUES = "ethics";</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+Flagship: 🏳️‍⚧️ | 🏳️‍🌈 | 🇺🇳 
+
+</details>
+
+---
+
+<h3>CAUSES&nbsp;&nbsp;&#9475;&nbsp;📣&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">cat LICENSE</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>OTHER ACTIVITIES&nbsp;&nbsp;&#9475;&nbsp;🎹&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">import * as Utils from './module.js';</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<h3>BLOOM&nbsp;&nbsp;&#9475;&nbsp;🌸&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">from eduardo import this</code></h3>
+
+Placeholder.
+
+<details>
+<summary><em>I would like to know more...</em></summary>
+
+<br/>
+
+Placeholder.
+
+</details>
+
+---
+
+<!-- ---
 
 ### ``ls /usr/bin`` (Full Technology Stacks) 🛠️
 
@@ -365,9 +583,7 @@ Placeholder
   </a>
 </p>
 
-</div>
-
----
+</div> -->
 
 <div align="center">
   
