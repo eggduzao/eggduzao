@@ -27,7 +27,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">$ whois</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
-<h3>PROFILE&nbsp;&nbsp;&#9475;&nbsp;💡&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ whois</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-profile.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
@@ -86,7 +86,7 @@ Cheers.
   <code color="#4da0b0ff">SELECT * FROM career;</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
  -->
-<h3>CAREER&nbsp;&nbsp;&#9475;&nbsp;💼&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">SELECT * FROM career;</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-career.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
 <p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
@@ -175,7 +175,7 @@ Cheers.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">eduardo --help</code>
 &nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
-<h3>CV&nbsp;&nbsp;&#9475;&nbsp;💎&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">SELECT * FROM career;</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-cv.svg" width="880">
 
 ```yaml
 Name: Eduardo G Gusmao
@@ -266,7 +266,7 @@ Development_Environment:
 
 ---
 
-<h3>CONTACT&nbsp;&nbsp;&#9475;&nbsp;📬&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-contact.svg" width="880">
 
 Placeholder.
 
@@ -281,7 +281,7 @@ Placeholder.
 
 ---
 
-<h3>PINNED REPOSITORIES&nbsp;&nbsp;&#9475;&nbsp;📦&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ gh repo list</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-pinned.svg" width="880">
 
 Placeholder.
 
@@ -296,7 +296,7 @@ Placeholder.
 
 ---
 
-<h3>CONTRIBUTIONS&nbsp;&nbsp;&#9475;&nbsp;🤝&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-contributions.svg" width="880">
 
 Placeholder.
 
@@ -311,7 +311,7 @@ Placeholder.
 
 ---
 
-<h3>GITHUB STATISTICS&nbsp;&nbsp;&#9475;&nbsp;📊&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">diff --stat</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-gitstats.svg" width="880">
 
 Placeholder.
 
@@ -326,7 +326,7 @@ Placeholder.
 
 ---
 
-<h3>GITHUB ANALYTICS&nbsp;&nbsp;&#9475;&nbsp;🎛️&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-gitanalytics.svg" width="880">
 
 Placeholder.
 
@@ -341,7 +341,7 @@ Placeholder.
 
 ---
 
-<h3>TECHNOLOGY STACK&nbsp;&nbsp;&#9475;&nbsp;🛠️&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ ls /usr/bin</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-techstack.svg" width="880">
 
 Placeholder.
 
@@ -356,7 +356,7 @@ Placeholder.
 
 ---
 
-<h3>RESEARCH&nbsp;&nbsp;&#9475;&nbsp;🧪&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">wandb.init()</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-research.svg" width="880">
 
 Placeholder.
 
@@ -371,7 +371,7 @@ Placeholder.
 
 ---
 
-<h3>WRITTING & COMMUNICATION&nbsp;&nbsp;&#9475;&nbsp;📝&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ cat notes.md</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-writting-communication.svg" width="880">
 
 Placeholder.
 
@@ -386,7 +386,7 @@ Placeholder.
 
 ---
 
-<h3>AVAILABILITY&nbsp;&nbsp;&#9475;&nbsp;🌍&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">#include < chrono></code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-availability.svg" width="880">
 
 Placeholder.
 
@@ -401,7 +401,7 @@ Placeholder.
 
 ---
 
-<h3>ROADMAP&nbsp;&nbsp;&#9475;&nbsp;🧭&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">CODE</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-roadmap.svg" width="880">
 
 Placeholder.
 
@@ -416,7 +416,7 @@ Placeholder.
 
 ---
 
-<h3>EDUCATION&nbsp;&nbsp;&#9475;&nbsp;🎓&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">$ wget -r -np -nd -A '*.pdf' --wait=1 https://gusmaolab.com/docs/</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-education.svg" width="880">
 
 Placeholder.
 
@@ -431,7 +431,7 @@ Placeholder.
 
 ---
 
-<h3>PHILOSOPHY & ETHICS&nbsp;&nbsp;&#9475;&nbsp;🧬&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">public static final String VALUES = "ethics";</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-phylosophy-ethics.svg" width="880">
 
 Placeholder.
 
@@ -448,7 +448,7 @@ Flagship: 🏳️‍⚧️ | 🏳️‍🌈 | 🇺🇳
 
 ---
 
-<h3>CAUSES&nbsp;&nbsp;&#9475;&nbsp;📣&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">cat LICENSE</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-charity-causes.svg" width="880">
 
 Placeholder.
 
@@ -463,7 +463,7 @@ Placeholder.
 
 ---
 
-<h3>OTHER ACTIVITIES&nbsp;&nbsp;&#9475;&nbsp;🎹&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">import * as Utils from './module.js';</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-other-activities.svg" width="880">
 
 Placeholder.
 
@@ -478,7 +478,7 @@ Placeholder.
 
 ---
 
-<h3>BLOOM&nbsp;&nbsp;&#9475;&nbsp;🌸&nbsp;&#9475;&nbsp;&nbsp;<code color="#4da0b0ff">from eduardo import this</code></h3>
+<img src="https://www.gusmaolab.org/images/brand/section-eduardo.svg" width="880">
 
 Placeholder.
 
