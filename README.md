@@ -16,9 +16,9 @@
   </tr>
 </table> -->
 
-<!-- <img src="https://www.gusmaolab.org/images/brand/try1.svg" width="880">
+<!-- <img src="https://www.gusmaolab.org/images/github/section/try1.svg" width="880">
 
-<h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+<h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ PROFILE ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,13 +26,13 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">$ whois</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
-<img src="https://www.gusmaolab.org/images/brand/section-profile.svg" width="880">
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3> -->
+<img src="https://www.gusmaolab.org/images/github/section/section-profile.svg" width="880">
 
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
 <!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
 <details>
@@ -76,7 +76,7 @@ Cheers.
 
 ---
 
-<!-- <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+<!-- <h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CAREER ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -84,15 +84,15 @@ Cheers.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">SELECT * FROM career;</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3>
  -->
-<img src="https://www.gusmaolab.org/images/brand/section-career.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-career.svg" width="880">
 
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude </p>
-<p><img src="https://www.gusmaolab.org/images/brand/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude </p>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
@@ -166,7 +166,7 @@ Cheers.
 
 ---
 
-<!-- <h3><p> <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+<!-- <h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
   <strong>[ CV ]</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -174,8 +174,8 @@ Cheers.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <code color="#4da0b0ff">eduardo --help</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/brand/bullet-header-5.svg" width="10"> </p></h3> -->
-<img src="https://www.gusmaolab.org/images/brand/section-cv.svg" width="880">
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3> -->
+<img src="https://www.gusmaolab.org/images/github/section/section-cv.svg" width="880">
 
 ```yaml
 Name: Eduardo G Gusmao
@@ -266,7 +266,7 @@ Development_Environment:
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-contact.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-contact.svg" width="880">
 
 Placeholder.
 
@@ -281,7 +281,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-pinned.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-pinned.svg" width="880">
 
 Placeholder.
 
@@ -296,7 +296,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-contributions.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-contributions.svg" width="880">
 
 Placeholder.
 
@@ -311,7 +311,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-gitstats.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-gitstats.svg" width="880">
 
 Placeholder.
 
@@ -326,7 +326,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-gitanalytics.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-gitanalytics.svg" width="880">
 
 Placeholder.
 
@@ -341,101 +341,165 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-techstack.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-techstack.svg" width="880">
 
 Placeholder.
 
 <table align="center">
   <tr>
-    <td align="center" width="90">
-      <a target="_blank" rel="noopener noreferrer nofollow" href="https://techstack-generator.vercel.app/js-icon.svg">
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="Javascript" width="55" height="55">
-      </a><br>Javascript
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=apple" target="_blank">
+        <img src="https://skillicons.dev/icons?i=apple" width="40" height="40" alt="apple">
+      </a><br>Apple
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=solidity" target="_blank">
-        <img src="https://skillicons.dev/icons?i=solidity" width="45" height="45" alt="Solidity">
-      </a><br>Solidity
-    </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=rust" target="_blank">
-        <img src="https://skillicons.dev/icons?i=rust" width="45" height="45" alt="Rust">
-      </a><br>Rust
-    </td>
-    <td align="center" width="90">
-      <a href="https://techstack-generator.vercel.app/react-icon.svg" target="_blank">
-        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="55" height="55">
-      </a><br>React
-    </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=nextjs" target="_blank">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" alt="Next.js">
-      </a><br>Next.js
-    </td>
-    <td align="center" width="90">
-      <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png" width="48" height="48" alt="Ethereum"><br>Ethereum
-    </td>
-    <td align="center" width="90">
-      <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png" width="48" height="48" alt="Solana"><br>Solana
-    </td>
-    <td align="center" width="90">
+    <td align="center" width="88">
       <a href="https://techstack-generator.vercel.app/python-icon.svg" target="_blank">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="MySQL" width="55" height="55">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="python" width="40" height="40">
       </a><br>Python
     </td>
-    <td align="center" width="90">
-      <a href="https://techstack-generator.vercel.app/ts-icon.svg" target="_blank">
-        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="Typescript" width="55" height="55">
-      </a><br>Typescript
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=pytorch" target="_blank">
+        <img src="https://skillicons.dev/icons?i=pytorch" width="40" height="40" alt="pytorch">
+      </a><br>PyTorch
     </td>
-    
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/gatk.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/gatk.svg" width="40" height="40" alt="gatk">
+      </a><br>GATK
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=git" target="_blank">
+        <img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="git">
+      </a><br>Git
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/snakemake.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/snakemake.svg" width="40" height="40" alt="snakemake">
+      </a><br>Snakemake
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/gradio.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/gradio.svg" width="40" height="40" alt="gradio">
+      </a><br>Gradio
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=docker" target="_blank">
+        <img src="https://skillicons.dev/icons?i=docker" width="40" height="40" alt="docker">
+      </a><br>Docker
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=aws" target="_blank">
+        <img src="https://skillicons.dev/icons?i=aws" width="40" height="40" alt="aws">
+      </a><br>AWS
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/jira.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/jira.svg" width="40" height="40" alt="jira">
+      </a><br>Jira
+    </td>
   </tr>
-
   <tr>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=firebase" target="_blank">
-        <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" alt="Firebase">
-      </a><br>Firebase
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=linux" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="linux">
+      </a><br>Linux
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=mongodb" target="_blank">
-        <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" alt="MongoDB">
-      </a><br>MongoDB
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=r" target="_blank">
+        <img src="https://skillicons.dev/icons?i=r" width="40" height="40" alt="r">
+      </a><br>R
     </td>
-    <td align="center" width="90">
-      <a href="https://techstack-generator.vercel.app/mysql-icon.svg" target="_blank">
-        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="55" height="55">
-      </a><br>MySQL
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=tensorflow" target="_blank">
+        <img src="https://skillicons.dev/icons?i=tensorflow" width="40" height="40" alt="tensorflow">
+      </a><br>TensorFlow
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=postgres" target="_blank">
-        <img src="https://skillicons.dev/icons?i=postgres" width="45" height="45" alt="PostgreSQL">
-      </a><br>PostgreSQL
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/bioconductor.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/bioconductor.svg" width="40" height="40" alt="bioconductor">
+      </a><br>Bioconductor
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=supabase" target="_blank">
-        <img src="https://skillicons.dev/icons?i=supabase" width="45" height="45" alt="Supabase">
-      </a><br>Supabase
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=github" target="_blank">
+        <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="github">
+      </a><br>GitHub
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=materialui" target="_blank">
-        <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="MaterialUI">
-      </a><br>MaterialUI
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/nextflow.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/nextflow.svg" width="40" height="40" alt="nextflow">
+      </a><br>Nextflow
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=tailwind" target="_blank">
-        <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="Tailwind">
-      </a><br>Tailwind
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=fastapi" target="_blank">
+        <img src="https://skillicons.dev/icons?i=fastapi" width="40" height="40" alt="fastapi">
+      </a><br>FastAPI
     </td>
-    <td align="center" width="90">
-      <a href="https://skillicons.dev/icons?i=threejs" target="_blank">
-        <img src="https://skillicons.dev/icons?i=threejs" width="45" height="45" alt="Three.js">
-      </a><br>Three.js
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=kubernetes" target="_blank">
+        <img src="https://skillicons.dev/icons?i=kubernetes" width="40" height="40" alt="kubernetes">
+      </a><br>Kubernetes
     </td>
-    <td align="center" width="90">
-      <a href="https://techstack-generator.vercel.app/restapi-icon.svg" target="_blank">
-        <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="55" height="55">
-      </a><br>REST API
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=terraform" target="_blank">
+        <img src="https://skillicons.dev/icons?i=terraform" width="40" height="40" alt="terraform">
+      </a><br>Terraform
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=grafana" target="_blank">
+        <img src="https://skillicons.dev/icons?i=grafana" width="40" height="40" alt="grafana">
+      </a><br>Grafana
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=vscode" target="_blank">
+        <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="vscode">
+      </a><br>VsCode
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=bash" target="_blank">
+        <img src="https://skillicons.dev/icons?i=bash" width="40" height="40" alt="bash">
+      </a><br>Bash
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/jax.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/jax.svg" width="40" height="40" alt="jax">
+      </a><br>JAX
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/ruff.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/ruff.svg" width="40" height="40" alt="ruff">
+      </a><br>Ruff
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" width="40" height="40" alt="githubactions">
+      </a><br>Github Actions
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" width="40" height="40" alt="Mamba/Conda">
+      </a><br>Mamba/Conda
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=postgreesql" target="_blank">
+        <img src="https://skillicons.dev/icons?i=postgreesql" width="40" height="40" alt="postgreesql">
+      </a><br>PostgreeSQL
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=redis" target="_blank">
+        <img src="https://skillicons.dev/icons?i=redis" width="40" height="40" alt="redis">
+      </a><br>Redis
+    </td>
+    <td align="center" width="88">
+      <a href="https://www.gusmaolab.org/images/github/techicon/databricks.svg" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/databricks.svg" width="40" height="40" alt="databricks.svg">
+      </a><br>Databricks.svg
+    </td>
+    <td align="center" width="88">
+      <a href="https://skillicons.dev/icons?i=prometheus" target="_blank">
+        <img src="https://skillicons.dev/icons?i=prometheus" width="40" height="40" alt="prometheus">
+      </a><br>Prometheus
     </td>
   </tr>
 </table>
@@ -451,7 +515,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-research.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-research.svg" width="880">
 
 Placeholder.
 
@@ -466,7 +530,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-writting-communication.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-writting-communication.svg" width="880">
 
 Placeholder.
 
@@ -481,7 +545,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-availability.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-availability.svg" width="880">
 
 Placeholder.
 
@@ -496,7 +560,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-roadmap.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-roadmap.svg" width="880">
 
 Placeholder.
 
@@ -511,7 +575,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-education.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-education.svg" width="880">
 
 Placeholder.
 
@@ -526,7 +590,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-phylosophy-ethics.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-phylosophy-ethics.svg" width="880">
 
 Placeholder.
 
@@ -543,7 +607,7 @@ Flagship: 🏳️‍⚧️ | 🏳️‍🌈 | 🇺🇳
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-charity-causes.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-charity-causes.svg" width="880">
 
 Placeholder.
 
@@ -558,7 +622,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-other-activities.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-other-activities.svg" width="880">
 
 Placeholder.
 
@@ -573,7 +637,7 @@ Placeholder.
 
 ---
 
-<img src="https://www.gusmaolab.org/images/brand/section-eduardo.svg" width="880">
+<img src="https://www.gusmaolab.org/images/github/section/section-eduardo.svg" width="880">
 
 Placeholder.
 
@@ -595,23 +659,23 @@ Placeholder.
 <p align="center">
 
   <a href="https://www.gusmaolab.org" target="_blank">
-    <img src="https://skillicons.dev/icons?i=haxeflixel" width="45" height="45" alt="Gusmao Lab Website"/>
+    <img src="https://skillicons.dev/icons?i=haxeflixel" width="40" height="40" alt="Gusmao Lab Website"/>
   </a><br>
 
   <a href="mailto:eduardo@gusmaolab.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" width="45" height="45" alt="Email"/>
+    <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" alt="Email"/>
   </a><br>
 
   <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="45" height="45" alt="LinkedIN"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" alt="LinkedIN"/>
   </a><br>
 
   <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
-    <img src="https://skillicons.dev/icons?i=stackoverflow" width="45" height="45" alt="Stack Overflow"/>
+    <img src="https://skillicons.dev/icons?i=stackoverflow" width="40" height="40" alt="Stack Overflow"/>
   </a><br>
 
   <a href="https://dev.to/eduardogade" target="_blank">
-    <img src="https://skillicons.dev/icons?i=devto" width="45" height="45" alt="Dev.to"/>
+    <img src="https://skillicons.dev/icons?i=devto" width="40" height="40" alt="Dev.to"/>
   </a><br>
 
 </p>

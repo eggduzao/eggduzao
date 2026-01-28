@@ -160,7 +160,9 @@ def _challenge15_parser(argv: Sequence[str] | None = None) -> dict[str, Any] | N
     if not argv:
         try:
             argv = sys.argv[1:]
-        except Exception
+        except Exception as e:
+            print("Please use: challenge15.py -h to see the options")
+            raise e
 
     parser = argparse.ArgumentParser(
         prog="challenge15",
@@ -178,8 +180,8 @@ def _challenge15_parser(argv: Sequence[str] | None = None) -> dict[str, Any] | N
         epilog=(
             f"Examples:\n"
             f"$ python challenge_15.py ~/Desktop/input-utf8.txt~\n"
-            f"$ python challenge_15.py input-utf8.txt -o output-utf8.txt\n"
-            f"$ python challenge_15.py input-utf8.txt --lang --md -o output-utf8.txt\n"
+            f"$ python challenge_15.py -h\n"
+            f"$ python challenge_15.py --version\n"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -188,7 +190,7 @@ def _challenge15_parser(argv: Sequence[str] | None = None) -> dict[str, Any] | N
     parser.add_argument(
         "--version",
         action="version",
-        version="0.1.0",
+        version="0.1.1",
         help="Show program version and exit.",
     )
 
