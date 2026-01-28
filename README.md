@@ -345,8 +345,9 @@ Placeholder.
 
 Placeholder.
 
-<table align="center" width=880>
-  <tr width=880>
+<h5>
+<table align="center">
+  <tr>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=apple" target="_blank">
         <img src="https://skillicons.dev/icons?i=apple" width="40" height="40" alt="apple">
@@ -398,7 +399,7 @@ Placeholder.
       </a><br>Jira
     </td>
   </tr>
-  <tr width=880>
+  <tr>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=linux" target="_blank">
         <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="linux">
@@ -450,7 +451,7 @@ Placeholder.
       </a><br>Grafana
     </td>
   </tr>
-  <tr width=880>
+  <tr>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=vscode" target="_blank">
         <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="vscode">
@@ -501,8 +502,9 @@ Placeholder.
         <img src="https://skillicons.dev/icons?i=prometheus" width="40" height="40" alt="prometheus">
       </a><br>Prometheus
     </td>
-  </tr width=880>
+  </tr>
 </table>
+</h5>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
