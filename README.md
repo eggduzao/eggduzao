@@ -345,7 +345,7 @@ Placeholder.
 
 Placeholder.
 
-<h5>
+<h6>
 <table align="center">
   <tr>
     <td align="center" width="88">
@@ -418,7 +418,7 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/bioconductor.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/bioconductor.svg" width="40" height="40" alt="bioconductor">
-      </a><br>Bioconductor
+      </a><br>Bioconduct
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=github" target="_blank">
@@ -438,7 +438,7 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=kubernetes" target="_blank">
         <img src="https://skillicons.dev/icons?i=kubernetes" width="40" height="40" alt="kubernetes">
-      </a><br>Kubernetes
+      </a><br>K8s
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=terraform" target="_blank">
@@ -475,17 +475,17 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" width="40" height="40" alt="githubactions">
-      </a><br>GHActions
+      </a><br>GActions
     </td>
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" width="40" height="40" alt="Mamba/Conda">
-      </a><br>Mamba/Conda
+      </a><br>Mamba
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=postgresql" target="_blank">
         <img src="https://skillicons.dev/icons?i=postgresql" width="40" height="40" alt="postgresql">
-      </a><br>PostgreSQL
+      </a><br>Postgres
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=redis" target="_blank">
@@ -495,7 +495,7 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/databricks.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/databricks.svg" width="40" height="40" alt="databricks.svg">
-      </a><br>Databricks
+      </a><br>DtBricks
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=prometheus" target="_blank">
@@ -504,7 +504,7 @@ Placeholder.
     </td>
   </tr>
 </table>
-</h5>
+</h6>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
