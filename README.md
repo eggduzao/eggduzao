@@ -345,8 +345,8 @@ Placeholder.
 
 Placeholder.
 
-<table align="center">
-  <tr>
+<table align="center" width=880>
+  <tr width=880>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=apple" target="_blank">
         <img src="https://skillicons.dev/icons?i=apple" width="40" height="40" alt="apple">
@@ -398,7 +398,7 @@ Placeholder.
       </a><br>Jira
     </td>
   </tr>
-  <tr>
+  <tr width=880>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=linux" target="_blank">
         <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="linux">
@@ -450,7 +450,7 @@ Placeholder.
       </a><br>Grafana
     </td>
   </tr>
-  <tr>
+  <tr width=880>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=vscode" target="_blank">
         <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="vscode">
@@ -474,7 +474,7 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/githubactions.svg" width="40" height="40" alt="githubactions">
-      </a><br>Github Actions
+      </a><br>GHActions
     </td>
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" target="_blank">
@@ -482,9 +482,9 @@ Placeholder.
       </a><br>Mamba/Conda
     </td>
     <td align="center" width="88">
-      <a href="https://skillicons.dev/icons?i=postgreesql" target="_blank">
-        <img src="https://skillicons.dev/icons?i=postgreesql" width="40" height="40" alt="postgreesql">
-      </a><br>PostgreeSQL
+      <a href="https://skillicons.dev/icons?i=postgresql" target="_blank">
+        <img src="https://skillicons.dev/icons?i=postgresql" width="40" height="40" alt="postgresql">
+      </a><br>PostgreSQL
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=redis" target="_blank">
@@ -494,14 +494,14 @@ Placeholder.
     <td align="center" width="88">
       <a href="https://www.gusmaolab.org/images/github/techicon/databricks.svg" target="_blank">
         <img src="https://www.gusmaolab.org/images/github/techicon/databricks.svg" width="40" height="40" alt="databricks.svg">
-      </a><br>Databricks.svg
+      </a><br>Databricks
     </td>
     <td align="center" width="88">
       <a href="https://skillicons.dev/icons?i=prometheus" target="_blank">
         <img src="https://skillicons.dev/icons?i=prometheus" width="40" height="40" alt="prometheus">
       </a><br>Prometheus
     </td>
-  </tr>
+  </tr width=880>
 </table>
 
 <details>
