@@ -1,3 +1,146 @@
+<!-- | HTML DOCSTRINGS
+
+Hello,
+
+Welcome to Eduardo's Lab (GusmaoLab).
+
+Feel free to use any of the technologies displayed here.
+
+---------------
+
+# Section attempts
+
+<h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+  <strong>[ PROFILE ]</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  💡
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code color="#4da0b0ff">$ whois</code>
+
+---------------
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
+    <td width="80" align="center">💼</td>
+    <td width="400" align="right"><code>$ whois</code></td> ;&#9475
+  </tr>
+</table>
+
+---------------
+
+<h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+  <strong>[ CAREER ]</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  💼
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code color="#4da0b0ff">SELECT * FROM career;</code>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3>
+
+---------------
+
+# Inspiration
+
+### ``ls /usr/bin`` (Full Technology Stacks) 🛠️
+
+<p align="center">
+
+  <a href="https://www.gusmaolab.org" target="_blank">
+    <img src="https://skillicons.dev/icons?i=haxeflixel" width="40" height="40" alt="Gusmao Lab Website"/>
+  </a><br>
+
+  <a href="mailto:eduardo@gusmaolab.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" alt="Email"/>
+  </a><br>
+
+  <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" alt="LinkedIN"/>
+  </a><br>
+
+  <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
+    <img src="https://skillicons.dev/icons?i=stackoverflow" width="40" height="40" alt="Stack Overflow"/>
+  </a><br>
+
+  <a href="https://dev.to/eduardogade" target="_blank">
+    <img src="https://skillicons.dev/icons?i=devto" width="40" height="40" alt="Dev.to"/>
+  </a><br>
+
+</p>
+
+---------------
+
+## 📬 GET IN TOUCH
+
+<div align="center">
+
+### 💬 Let's Connect
+
+<table>
+<tr>
+<td align="center" width="20%">
+  <br>
+  <b>🚀<br>Machine<br>Learning</b>
+</td>
+<td align="center" width="20%">
+  <br>
+  <b>📱<br>Computational<br>Biology</b>
+</td>
+<td align="center" width="20%">
+  <br>
+  <b>☁️<br>Data<br>Engineering</b>
+</td>
+<td align="center" width="20%">
+  <br>
+  <b>🤝<br>Open Source<br>Collaboration</b>
+</td>
+<td align="center" width="20%">
+  <br>
+  <b>💡<br>Mentorship<br>& Consulting</b>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://www.gusmaolab.org" target="_blank">
+    <img src="https://img.shields.io/badge/📝_READ_BLOG-3b82f6?style=for-the-badge&logo=hashnode&logoColor=ffffff&labelColor=0f172a" alt="Blog"/>
+  </a>
+  <a href="mailto:eduardo@gusmaolab.com">
+    <img src="https://img.shields.io/badge/📧_EMAIL_ME-3b82f6?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0f172a" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
+    <img src="https://img.shields.io/badge/👔_LINKEDIN-3b82f6?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0f172a" alt="LinkedIn"/>
+  </a>
+  <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
+    <img src="https://img.shields.io/badge/🐦_TWITTER-3b82f6?style=for-the-badge&logo=twitter&logoColor=ffffff&labelColor=0f172a" alt="Twitter"/>
+  </a>
+  <a href="https://dev.to/eduardogade" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-3b82f6?style=for-the-badge&logoColor=ffffff&labelColor=0f172a" alt="Portfolio"/>
+  </a>
+</p>
+
+### 🌟 Support My Work
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/eduardogade" target="_blank">
+    <img src="https://img.shields.io/badge/☕_BUY_ME_A_COFFEE-3b82f6?style=for-the-badge&logo=buy-me-a-coffee&logoColor=ffffff&labelColor=0f172a" alt="Buy Me A Coffee"/>
+  </a>
+  <a href="https://github.com/sponsors/eggduzao" target="_blank">
+    <img src="https://img.shields.io/badge/💰_SPONSOR-3b82f6?style=for-the-badge&logo=github-sponsors&logoColor=ffffff&labelColor=0f172a" alt="GitHub Sponsors"/>
+  </a>
+</p>
+
+</div>
+
+---------------
+
+# All Animated Icons
+
+<div style="display: flex;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/rescript-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/swift-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/gatsby-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/storybook-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/jest-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/testinglibrary-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 0px;" /></div>
+| -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,100:10344a&height=280&section=header&text=EDUARDO%20GADE%20GUSMAO&fontSize=62&fontColor=e9eef2&animation=fadeIn&fontAlignY=35&desc=MACHINE%20LEARNING%20RESEARCHER%20%20%20%20•%20%20%20%20BIOINFORMATICS%20PROJECT%20MANAGER&descAlignY=55&descSize=20" />
 </div>
@@ -8,25 +151,7 @@
 
 ---
 
-<!-- <table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="400" align="left"><strong>[ PROFILE ]</strong></td>
-    <td width="80" align="center">💼</td>
-    <td width="400" align="right"><code>$ whois</code></td> ;&#9475
-  </tr>
-</table> -->
 
-<!-- <img src="https://www.gusmaolab.org/images/github/section/try1.svg" width="880">
-
-<h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
-  <strong>[ PROFILE ]</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  💡
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code color="#4da0b0ff">$ whois</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3> -->
 <img src="https://www.gusmaolab.org/images/github/section/section-profile.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
@@ -76,16 +201,6 @@ Cheers.
 
 ---
 
-<!-- <h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
-  <strong>[ CAREER ]</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  💼
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code color="#4da0b0ff">SELECT * FROM career;</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3>
- -->
 <img src="https://www.gusmaolab.org/images/github/section/section-career.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
@@ -384,13 +499,13 @@ Placeholder.
       </a><br>Gradio
     </td>
     <td align="center" width="88">
-      <a href="https://skillicons.dev/icons?i=docker" target="_blank">
-        <img src="https://skillicons.dev/icons?i=docker" width="40" height="40" alt="docker">
+      <a href="https://techstack-generator.vercel.app/docker-icon.svg" target="_blank">
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="40" height="40" alt="docker">
       </a><br>Docker
     </td>
     <td align="center" width="88">
-      <a href="https://skillicons.dev/icons?i=aws" target="_blank">
-        <img src="https://skillicons.dev/icons?i=aws" width="40" height="40" alt="aws">
+      <a href="https://techstack-generator.vercel.app/aws-icon.svg" target="_blank">
+        <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="40" height="40" alt="aws">
       </a><br>AWS
     </td>
     <td align="center" width="88">
@@ -421,8 +536,8 @@ Placeholder.
       </a><br>Bioconduct
     </td>
     <td align="center" width="88">
-      <a href="https://skillicons.dev/icons?i=github" target="_blank">
-        <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="github">
+      <a href="https://techstack-generator.vercel.app/github-icon.svg" target="_blank">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" width="40" height="40" alt="github">
       </a><br>GitHub
     </td>
     <td align="center" width="88">
@@ -436,8 +551,8 @@ Placeholder.
       </a><br>FastAPI
     </td>
     <td align="center" width="88">
-      <a href="https://skillicons.dev/icons?i=kubernetes" target="_blank">
-        <img src="https://skillicons.dev/icons?i=kubernetes" width="40" height="40" alt="kubernetes">
+      <a href="https://techstack-generator.vercel.app/kubernetes-icon.svg" target="_blank">
+        <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="40" height="40" alt="kubernetes">
       </a><br>K8s
     </td>
     <td align="center" width="88">
@@ -656,95 +771,7 @@ Placeholder.
 
 <!-- ---
 
-### ``ls /usr/bin`` (Full Technology Stacks) 🛠️
-
-<p align="center">
-
-  <a href="https://www.gusmaolab.org" target="_blank">
-    <img src="https://skillicons.dev/icons?i=haxeflixel" width="40" height="40" alt="Gusmao Lab Website"/>
-  </a><br>
-
-  <a href="mailto:eduardo@gusmaolab.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" alt="Email"/>
-  </a><br>
-
-  <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" alt="LinkedIN"/>
-  </a><br>
-
-  <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
-    <img src="https://skillicons.dev/icons?i=stackoverflow" width="40" height="40" alt="Stack Overflow"/>
-  </a><br>
-
-  <a href="https://dev.to/eduardogade" target="_blank">
-    <img src="https://skillicons.dev/icons?i=devto" width="40" height="40" alt="Dev.to"/>
-  </a><br>
-
-</p>
-
----
-
-## 📬 GET IN TOUCH
-
-<div align="center">
-
-### 💬 Let's Connect
-
-<table>
-<tr>
-<td align="center" width="20%">
-  <br>
-  <b>🚀<br>Machine<br>Learning</b>
-</td>
-<td align="center" width="20%">
-  <br>
-  <b>📱<br>Computational<br>Biology</b>
-</td>
-<td align="center" width="20%">
-  <br>
-  <b>☁️<br>Data<br>Engineering</b>
-</td>
-<td align="center" width="20%">
-  <br>
-  <b>🤝<br>Open Source<br>Collaboration</b>
-</td>
-<td align="center" width="20%">
-  <br>
-  <b>💡<br>Mentorship<br>& Consulting</b>
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <a href="https://www.gusmaolab.org" target="_blank">
-    <img src="https://img.shields.io/badge/📝_READ_BLOG-3b82f6?style=for-the-badge&logo=hashnode&logoColor=ffffff&labelColor=0f172a" alt="Blog"/>
-  </a>
-  <a href="mailto:eduardo@gusmaolab.com">
-    <img src="https://img.shields.io/badge/📧_EMAIL_ME-3b82f6?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0f172a" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/eduardo-gade-gusmaosmao/" target="_blank">
-    <img src="https://img.shields.io/badge/👔_LINKEDIN-3b82f6?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0f172a" alt="LinkedIn"/>
-  </a>
-  <a href="https://stackoverflow.com/users/32223943/eduardo-gusmao" target="_blank">
-    <img src="https://img.shields.io/badge/🐦_TWITTER-3b82f6?style=for-the-badge&logo=twitter&logoColor=ffffff&labelColor=0f172a" alt="Twitter"/>
-  </a>
-  <a href="https://dev.to/eduardogade" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-3b82f6?style=for-the-badge&logoColor=ffffff&labelColor=0f172a" alt="Portfolio"/>
-  </a>
-</p>
-
-### 🌟 Support My Work
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/eduardogade" target="_blank">
-    <img src="https://img.shields.io/badge/☕_BUY_ME_A_COFFEE-3b82f6?style=for-the-badge&logo=buy-me-a-coffee&logoColor=ffffff&labelColor=0f172a" alt="Buy Me A Coffee"/>
-  </a>
-  <a href="https://github.com/sponsors/eggduzao" target="_blank">
-    <img src="https://img.shields.io/badge/💰_SPONSOR-3b82f6?style=for-the-badge&logo=github-sponsors&logoColor=ffffff&labelColor=0f172a" alt="GitHub Sponsors"/>
-  </a>
-</p>
-
-</div> -->
+ -->
 
 <div align="center">
   
