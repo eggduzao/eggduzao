@@ -426,8 +426,8 @@ Placeholder.
       </a><br>GitHub
     </td>
     <td align="center" width="88">
-      <a href="https://www.gusmaolab.org/images/github/techicon/nextflow.svg" target="_blank">
-        <img src="https://www.gusmaolab.org/images/github/techicon/nextflow.svg" width="40" height="40" alt="nextflow">
+      <a href="https://www.gusmaolab.org/images/github/techicon/nextflow.png" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/nextflow.png" width="40" height="40" alt="nextflow">
       </a><br>Nextflow
     </td>
     <td align="center" width="88">
@@ -478,8 +478,8 @@ Placeholder.
       </a><br>GActions
     </td>
     <td align="center" width="88">
-      <a href="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" target="_blank">
-        <img src="https://www.gusmaolab.org/images/github/techicon/condamamba.svg" width="40" height="40" alt="Mamba/Conda">
+      <a href="https://www.gusmaolab.org/images/github/techicon/condamamba.png" target="_blank">
+        <img src="https://www.gusmaolab.org/images/github/techicon/condamamba.png" width="40" height="40" alt="Mamba/Conda">
       </a><br>Mamba
     </td>
     <td align="center" width="88">
