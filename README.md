@@ -73,6 +73,18 @@ Feel free to use any of the technologies displayed here.
 
 ---------------
 
+<h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
+  <strong>[ CV ]</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  📄🪪💎
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code color="#4da0b0ff">eduardo --help</code>
+&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3>
+
+---------------
+
 ## 📬 GET IN TOUCH
 
 <div align="center">
@@ -141,6 +153,7 @@ Feel free to use any of the technologies displayed here.
 
 <div style="display: flex;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/rescript-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/swift-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/gatsby-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/storybook-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/jest-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/testinglibrary-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 0px; margin-bottom: 0px;" /></div>
 | -->
+<a id="home"></a>
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,100:10344a&height=280&section=header&text=EDUARDO%20GADE%20GUSMAO&fontSize=62&fontColor=e9eef2&animation=fadeIn&fontAlignY=35&desc=MACHINE%20LEARNING%20RESEARCHER%20%20%20%20•%20%20%20%20BIOINFORMATICS%20PROJECT%20MANAGER&descAlignY=55&descSize=20" />
 </div>
@@ -151,7 +164,7 @@ Feel free to use any of the technologies displayed here.
 
 ---
 
-
+<a id="profile"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-profile.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
@@ -201,6 +214,7 @@ Cheers.
 
 ---
 
+<a id="career"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-career.svg" width="880">
 
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
@@ -281,15 +295,7 @@ Cheers.
 
 ---
 
-<!-- <h3><p> <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10" valign="center"> &nbsp;&nbsp;&nbsp;
-  <strong>[ CV ]</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  📄🪪💎
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9475;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code color="#4da0b0ff">eduardo --help</code>
-&nbsp;&nbsp;&nbsp; <img src="https://www.gusmaolab.org/images/github/section/bullet-header-5.svg" width="10"> </p></h3> -->
+<a id="cv"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-cv.svg" width="880">
 
 ```yaml
@@ -381,21 +387,46 @@ Development_Environment:
 
 ---
 
+<a id="contact"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-contact.svg" width="880">
 
-Placeholder.
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Email</b> | eduardo@gusmaolab.org
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>LinkedIN</b> | https://www.linkedin.com/eduardogade
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Location</b> | Recife, Brazil | Freising, Germany | Remote-friendly
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Status</b> | Open to senior ML / Bioinformatics roles
 
 <details>
 <summary><em>I would like to know more...</em></summary>
 
 <br/>
 
-Placeholder.
+<img src="https://www.gusmaolab.org/images/brand/gusmaolab-card-2.svg" width="880">
+
+### Professional Profiles
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Website & Blog:</b> https://www.gusmaolab.org
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>One-Page Resume:</b> https://www.gusmaolab.org/Gusmao-EG-CV.pdf
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Stack Overflow:</b> https://stackoverflow.com/users/32223943/eduardo-gusmao
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Medium:</b> https://medium.com/@eduardogade
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Dev.to:</b> https://dev.to/eduardogade
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>ORCiD:</b> https://orcid.org/my-orcid?orcid=0000-0001-7461-1443
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>ResearchGate:</b> https://www.researchgate.net/home
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Google Scholar:</b> https://scholar.google.com/citations?user=erHz7L8AAAAJ&hl=en
+
+### Practical notes
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Preferred contact: Email
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Response time: 1–2 business days
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Open to remote, hybrid, or relocation
+
+### Details
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; See [availability & engagement details](#availability)
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; See [writting & communication details](#communication)
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; See [education](#education) & [leadership details](#career)
 
 </details>
 
 ---
 
+<a id="pinned"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-pinned.svg" width="880">
 
 Placeholder.
@@ -411,6 +442,7 @@ Placeholder.
 
 ---
 
+<a id="contributions"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-contributions.svg" width="880">
 
 Placeholder.
@@ -426,6 +458,7 @@ Placeholder.
 
 ---
 
+<a id="gitstats"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-gitstats.svg" width="880">
 
 Placeholder.
@@ -441,6 +474,7 @@ Placeholder.
 
 ---
 
+<a id="gitanalytics"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-gitanalytics.svg" width="880">
 
 Placeholder.
@@ -456,6 +490,7 @@ Placeholder.
 
 ---
 
+<a id="techstack"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-techstack.svg" width="880">
 
 Placeholder.
@@ -632,6 +667,7 @@ Placeholder.
 
 ---
 
+<a id="research"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-research.svg" width="880">
 
 Placeholder.
@@ -647,6 +683,7 @@ Placeholder.
 
 ---
 
+<a id="communication"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-writting-communication.svg" width="880">
 
 Placeholder.
@@ -662,6 +699,7 @@ Placeholder.
 
 ---
 
+<a id="availability"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-availability.svg" width="880">
 
 Placeholder.
@@ -677,6 +715,7 @@ Placeholder.
 
 ---
 
+<a id="roadmap"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-roadmap.svg" width="880">
 
 Placeholder.
@@ -692,6 +731,7 @@ Placeholder.
 
 ---
 
+<a id="education"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-education.svg" width="880">
 
 Placeholder.
@@ -707,6 +747,7 @@ Placeholder.
 
 ---
 
+<a id="ethics"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-phylosophy-ethics.svg" width="880">
 
 Placeholder.
@@ -724,6 +765,7 @@ Flagship: 🏳️‍⚧️ | 🏳️‍🌈 | 🇺🇳
 
 ---
 
+<a id="causes"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-charity-causes.svg" width="880">
 
 Placeholder.
@@ -739,6 +781,7 @@ Placeholder.
 
 ---
 
+<a id="others"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-other-activities.svg" width="880">
 
 Placeholder.
@@ -754,6 +797,7 @@ Placeholder.
 
 ---
 
+<a id="bloom"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-eduardo.svg" width="880">
 
 Placeholder.
@@ -769,10 +813,7 @@ Placeholder.
 
 ---
 
-<!-- ---
-
- -->
-
+<a id="bottom"></a>
 <div align="center">
   
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=30&height=3"/>
