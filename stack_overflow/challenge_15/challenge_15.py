@@ -1,86 +1,147 @@
 # SPDX-License-Identifier: MIT
-# uqbar/acta/core.py
+# challenge15.py
 """
-Acta Diurna | Core
-==================
+StackOverflow Challenges | Alien Dictionary
+===========================================
+
+Compute a valid symbol ordering (an "alphabet") from an *alien dictionary*-a list of
+words already sorted according to some unknown lexicographic order.
+
+This module provides a robust, production-friendly implementation based on a
+seed-aware variant of **Kahn's topological sorting algorithm**. It extracts the
+minimal precedence constraints implied by the sorted word list and returns one
+valid ordering of all symbols observed in the input.
 
 Overview
 --------
-Placeholder.
+Given a list of words sorted in an unknown alphabet, we can infer ordering
+constraints by comparing each pair of *adjacent* words:
 
-# Clear tabs on all files in src/:
-# from repo root
-python - <<'PY'
-from pathlib import Path
+- Find the first position where two adjacent words differ.
+- If word₁ has symbol `a` and word₂ has symbol `b` at that position, then we must
+  have `a -> b` (meaning `a` comes before `b`).
+- Only the *first* differing position matters-everything after it is unconstrained
+  by lexicographic comparison.
+- Additionally, the dictionary is **invalid** if a longer word appears before its
+  exact prefix (e.g., `"abcd"` before `"ab"`). In that case, no ordering can
+  satisfy the given sorting.
 
-root = Path("src")
-for p in root.rglob("*.py"):
-    s = p.read_text(encoding="utf-8")
-    if "\t" in s:
-        p.write_text(s.expandtabs(4), encoding="utf-8")
-        print("fixed tabs:", p)
-PY
+All inferred constraints form a directed graph over symbols. Any valid alphabet
+corresponds to a **topological ordering** of that graph.
 
-# Black
-black . --target-version py312
+Algorithm
+---------
+This implementation uses a seed-aware Kahn's algorithm:
 
-Usage
+1. **Initialize vertices**
+   Collect every distinct symbol that appears anywhere in the input. This ensures
+   the result includes symbols even if they have no edges.
+
+2. **Build edges from adjacent words**
+   For each consecutive pair `(w1, w2)`, locate the first differing symbol
+   `(c1, c2)` and add a directed edge `c1 -> c2`. Maintain indegree counts.
+
+3. **Topological sort (Kahn)**
+   Start with all symbols whose indegree is zero. Repeatedly remove one such
+   symbol, append it to the output, and decrement the indegree of its outgoing
+   neighbors. When a neighbor reaches indegree zero, enqueue it.
+
+4. **Cycle detection**
+   If we cannot output all symbols (i.e., output length < number of symbols),
+   the constraints contain a cycle and there is no valid ordering.
+
+Seed-aware behavior
+-------------------
+Topological sorting is not necessarily unique. When multiple symbols are eligible
+(indegree zero), this implementation can be made deterministic by seeding the
+selection order (e.g., sorting candidates or using a stable tie-break rule).
+A deterministic tie-break makes results reproducible across runs, which is often
+useful for testing and for downstream pipelines.
+
+Complexity
+----------
+Let:
+
+- `C` be the total number of characters across all words (including duplicates),
+- `V` be the number of unique symbols (vertices),
+- `E` be the number of precedence constraints (edges).
+
+Then:
+
+- Building the symbol set is **O(C)**.
+- Building constraints from adjacent words is **O(C)** in total, because each
+  character position is inspected at most a constant number of times across the
+  adjacent comparisons.
+- Kahn's algorithm runs in **O(V + E)**.
+
+Overall time complexity: **O(C + V + E)**.
+
+Space complexity is **O(V + E)** for the adjacency representation and indegree
+map (the input words dominate separately as **O(C)**).
+
+API
+---
+- ``alien_order_robust(words: list[str]) -> list[str] | None``
+
+  Returns a valid ordering as a list of symbols (strings of length 1), or ``None``
+  if the dictionary is inconsistent.
+
+Examples
+--------
+Minimal usage (in Python):
+
+>>> words = ["wrt", "wrf", "er", "ett", "rftt"]
+>>> order = alien_order_robust(words)
+>>> order is not None
+True
+>>> "".join(order)  # one valid answer
+'wertf'
+
+Invalid prefix case:
+
+>>> alien_order_robust(["abcd", "ab"]) is None
+True
+
+Cycle / contradiction:
+
+>>> alien_order_robust(["z", "x", "z"]) is None
+True
+
+Command-line usage (typical pattern)
+------------------------------------
+Assuming you expose a CLI entry point that:
+1) reads one word per line from a file, and
+2) prints the discovered alphabet as a single line,
+
+you might run:
+
+$ python -m xxxxx.xxxxx.alien_dictionary input.txt
+$ python xxxxx/xxxxx/alien_dictionary.py input.txt
+$ python xxxxx/xxxxx/alien_dictionary.py input.txt -o out.txt
+
+Input format example (input.txt):
+
+wrt
+wrf
+er
+ett
+rftt
+
+Output (one possible):
+
+wertf
+
+Notes
 -----
-
-1. OpenRouter Key
-
-Make sure the OpenRouter's Key is in the environment:
-
-```bash
-export OPENROUTER_API_KEY="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"
-```
-
-Also, make sure you successdully installed the requirements. This can be done
-using any of the methods below.
-
-2. Requirements
-
-2.1. No Docker and no Environment
-
-```bash
-pip install -r requirements.txt
-pip install -r requirements-pip.txt
-```
-
-**2.2. Docker Image (recommended)**
-
-```bash
-docker build -t acta:trends .
-docker run --rm acta:trends
-```
-
-2.3. Micromamba (or Conda/Miniconda/Mamba)
-
-```bash
-micromamba install -n trends -f environment.yml
-micromamba activate trends
-pip install -r requirements-pip.txt
-```
-
-Usage Details
--------------
-
-1. xxx
-
-2. xxx
-
-
-3. Create prompt result
-
-To create the prompt result we will use the model:
-`allenai/olmo-3.1-32b-think:free`
-as it has a very good context window and a superb resoning for sober news,
-
-
+- This solver is Unicode-safe at the symbol level: Python ``str`` elements are
+  Unicode code points. If your "symbols" are multi-codepoint graphemes, you
+  should pre-tokenize accordingly.
+- Determinism is optional. If you need a stable order when ties occur, apply a
+  deterministic policy (e.g., sorting the zero-indegree queue).
 
 Metadata
 --------
-- Project: Acta diurna
+- Project: StackOverflow Challenges
 - License: MIT
 """
 
@@ -90,13 +151,12 @@ Metadata
 from __future__ import annotations
 
 import argparse
-import ctypes
 import sys
-from collections.abc import Sequence
+from collections import defaultdict, deque
+from collections.abc import Iterable
 from dataclasses import dataclass
-from itertools import chain
 from pathlib import Path
-from typing import Final, Any
+from typing import Final, Sequence, DefaultDict
 
 
 # -------------------------------------------------------------------------------------
@@ -106,342 +166,246 @@ from typing import Final, Any
 _BOMS: Final[tuple[str, ...]] = (
     "\ufeff",  # UTF-8 BOM *as decoded text*, also used in UTF-16/32 decoded contexts
 )
+
 _LINE_SEPARATORS: Final[tuple[str, ...]] = (
     "\r\n", "\n", "\r",          # usual
     "\u2028", "\u2029",          # Unicode line/paragraph separators
 )
 
 
-@dataclass(slots=True)
-class ParseStats:
-    """Small stats container; optional but handy."""
-    unique_symbols: set[str]
-    unique_symbol_counter: int
-    total_lines_seen: int
-    lines_skipped_empty: int
-    max_line_len: int
-
-
-# --------------------------------------------------------------------------------------
-# Helpers
-# --------------------------------------------------------------------------------------
-@dataclass(slots=True)
-class Symbol:
-    """Symbol representation, order and flags."""
-    name: str
-    order: int
-    score: int
-    xxxx_flag: bool
-
-
+# -------------------------------------------------------------------------------------
+# CLI
+# -------------------------------------------------------------------------------------
 def _as_path(value: str) -> Path:
-    """
-    Convert a CLI string to a Path (no existence check).
-    Use Path.exists()/is_file()/is_dir() downstream if you want strict validation.
-    """
     return Path(value).expanduser()
 
 
-def _challenge15_parser(argv: Sequence[str] | None = None) -> dict[str, Any] | None:
-    """
-    Parse CLI arguments for the challenge15 and return a plain dict[str, Any].
-
-    Parameters
-    ----------
-    argv:
-        Sequence of argument strings, typically `sys.argv[1:]`.
-        If None, argparse uses `sys.argv[1:]` automatically.
-
-    Returns
-    -------
-    dict[str, Any]
-        A dict with parsed values. Keys match the argument `dest` names.
-    """
-    if not argv:
-        try:
-            argv = sys.argv[1:]
-        except Exception as e:
-            print("Please use: challenge15.py -h to see the options")
-            raise e
-
-    parser = argparse.ArgumentParser(
+def _build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
         prog="challenge15",
-        description=(
-            f"challenge15 | by Eduardo G. Gusmao\n"
-            "==================================\n\n"
-            "This program require python 3.10+\n"
-            "==================================\n\n"
-            "Eduardo Gusmao is a Senior Machine Learning Researcher, who \n"
-            "is currently recovering from an accident. Eduardo loves challenges \n"
-            "and have many ideas. If you'd like to hear, reach him at: \n"
-            "gusmaolab.org | eduardo@gusmaolab.org | GH: @eggduzao \n"
-            "==================================\n\n"
-        ),
-        epilog=(
-            f"Examples:\n"
-            f"$ python challenge_15.py ~/Desktop/input-utf8.txt~\n"
-            f"$ python challenge_15.py -h\n"
-            f"$ python challenge_15.py --version\n"
-        ),
+        description="Alien Dictionary solver (robust I/O + ordering).",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
-    # Version flag
-    parser.add_argument(
-        "--version",
-        action="version",
-        version="0.1.1",
-        help="Show program version and exit.",
-    )
+    p.add_argument("--version", action="version", version="0.1.1")
 
-    # Positional arguments
-    parser.add_argument(
+    p.add_argument(
         "input_path",
         type=_as_path,
         metavar="PATH",
-        help="Input file containing the dictionary of the language",
+        help="Input file containing the dictionary words (one per line).",
     )
 
-    # Optional arguments
-    parser.add_argument(
+    p.add_argument(
         "-o",
         "--output-path",
         dest="output_path",
         type=_as_path,
         default=None,
         metavar="PATH",
-        help="Output path containing the ordered alphabet",
+        help="Optional output path for the ordered alphabet.",
     )
 
-    ns = parser.parse_args(argv)
-    return vars(ns)
+    return p
+
+
+# -------------------------------------------------------------------------------------
+# Helpers
+# -------------------------------------------------------------------------------------
+@dataclass(slots=True)
+class ReadStats:
+    encoding_used: str
+    total_lines: int
+    kept_lines: int
+    skipped_empty_or_ws: int
+    unique_symbols: set[str]
 
 
 def _normalize_line(line: str) -> str:
     """
     Normalize a raw line into a comparable form without changing its symbols.
     - Removes BOM if present at the beginning.
-    - Strips only newline-like terminators (keeps leading/trailing spaces intact).
+    - Removes only newline-like terminators (keeps leading/trailing spaces).
     """
     if not line:
         return ""
 
-    # Remove BOM (only if it's at the very beginning)
+    # Remove BOM only at the beginning
     for bom in _BOMS:
         if line.startswith(bom):
             line = line.removeprefix(bom)
             break
 
-    # Remove line terminators robustly (including uncommon Unicode separators)
-    # We do NOT call .strip() because we don't want to delete meaningful spaces.
+    # Usually unnecessary if we used splitlines(), but safe if called elsewhere
     for sep in _LINE_SEPARATORS:
         if line.endswith(sep):
             line = line[: -len(sep)]
-            # there could be a mix (rare), loop again
-            return _normalize_line(line)
 
     return line
 
 
-def _iter_text_lines_best_effort(path: Path) -> tuple[list[str], str]:
+def _read_words_robust(path: Path | None) -> tuple[list[str], ReadStats]:
     """
-    Read file bytes and decode to text using a best-effort strategy.
-    Returns (lines, encoding_used).
+    Read a dictionary file (one word per line), returning a list[str] words.
+
+    Design goals:
+    - Unicode-safe, best-effort decode.
+    - Preserve meaningful spaces inside words (we only drop empty/whitespace-only lines).
+    - Do not invent a C matrix or pad anything; Part 3 should work from Python strings.
     """
+    if not isinstance(path, Path):
+        raise TypeError("read_words_robust(path): path must be a pathlib.Path")
+    if not path.exists():
+        raise FileNotFoundError(f"File not found: {path}")
+    if not path.is_file():
+        raise IsADirectoryError(f"Expected a file, got: {path}")
+
     data = path.read_bytes()
 
-    # Try a small set of likely encodings in order of usefulness.
-    # Strict to surface real issues, but fall back to replacement.
-    candidates = (
-        ("utf-8", "strict"),
-        ("utf-8-sig", "strict"),     # handles BOM cleanly in many cases
-        ("utf-16", "strict"),
-        ("utf-16-le", "strict"),
-        ("utf-16-be", "strict"),
-        ("utf-32", "strict"),
-        ("utf-32-le", "strict"),
-        ("utf-32-be", "strict"),
-        ("latin-1", "strict"),       # last-resort byte->unicode mapping
+    # Prefer encodings that commonly appear in real-world text files.
+    # Note: 'utf-8-sig' strips BOM cleanly for UTF-8.
+    candidates: tuple[str, ...] = (
+        "utf-8-sig",
+        "utf-8",
+        "utf-16",
+        "utf-16-le",
+        "utf-16-be",
+        "utf-32",
+        "utf-32-le",
+        "utf-32-be",
+        "latin-1",  # last resort, lossless byte mapping
     )
 
     text: str | None = None
-    encoding_used: str = "utf-8"
+    encoding_used = "utf-8"
 
-    for enc, err in candidates:
+    for enc in candidates:
         try:
-            text = data.decode(enc, errors=err)
+            text = data.decode(enc, errors="strict")
             encoding_used = enc
             break
         except UnicodeDecodeError:
             continue
 
     if text is None:
-        # Absolute fallback: preserve data shape even if undecodable
+        # Absolute fallback: preserve shape even if some chars are undecodable
         text = data.decode("utf-8", errors="replace")
         encoding_used = "utf-8(replace)"
 
-    # CONTINUE C-matrix creation
+    raw_lines = text.splitlines()  # handles \n, \r\n, \r, and Unicode separators
+    words: list[str] = []
 
-    # splitlines() handles \n, \r\n, \r, and also Unicode separators
-    # While being the fastest option
-    lines: list[str] = text.splitlines()
+    unique_symbols: set[str] = set()
+    skipped = 0
 
-    # Converting text to a ctypes matrix
-    num_rows: int = len(lines)
-    num_cols: int = max(map(len, lines))
+    for raw in raw_lines:
+        line = _normalize_line(raw)
 
-    # 3. Create the ctypes matrix type (Array of Arrays)
-    # A 2D array in C is effectively RowType * num_rows
-    RowType = ctypes.c_char * num_cols
-    MatrixType = RowType * num_rows
-    padding_char = b' '
-    matrix = MatrixType()
+        # Skip empty or whitespace-only lines
+        if not line or line.isspace():
+            skipped += 1
+            continue
 
-    # 4. Fill the matrix with padding
-    for i, line in enumerate(lines):
-        # Convert string to bytes for c_char
-        line_bytes = line.encode('utf-8')
-        
-        # Fill the row: actual characters followed by the padding character
-        for j in range(num_cols):
-            if j < len(line_bytes):
-                matrix[i][j] = line_bytes[j:j+1]
-            else:
-                matrix[i][j] = padding_char
+        words.append(line)
+        unique_symbols.update(line)
 
-
-
-
-    return lines, encoding_used
+    stats = ReadStats(
+        encoding_used=encoding_used,
+        total_lines=len(raw_lines),
+        kept_lines=len(words),
+        skipped_empty_or_ws=skipped,
+        unique_symbols=unique_symbols,
+    )
+    return words, stats
 
 
 # --------------------------------------------------------------------------------------
 # Functions
 # --------------------------------------------------------------------------------------
-def hyperparser(path: Path | None) -> str:
+def alien_order_robust(words: list[str]) -> list[str] | None:
     """
-    Return the "most correct line" from a text file in a robust, best-effort way.
+    Derive a valid ordering of symbols given a sorted alien dictionary.
 
-    What "most correct" means here (pragmatic competition-safe heuristics):
-    - Prefer the first non-empty, normalized line that contains at least one non-whitespace symbol.
-    - If file is empty / only blank lines: return "".
-
-    Bonus side-effects:
-    - Tracks never-seen symbols in a set (across chosen line).
-    - Updates a unique_symbol_counter.
-
-    Notes:
-    - This parser is intentionally conservative: it does not try to validate
-      the "language" or enforce alphabet constraints; it just returns a best
-      candidate line and gathers symbol stats safely.
+    Returns
+    -------
+    list[str] | None
+        - list[str]: one valid topological ordering of all symbols encountered
+        - None: if the input implies a contradiction (cycle) or invalid prefix rule
     """
+    if not words:
+        return []
 
-    if not isinstance(path, Path):
-        raise TypeError("hyperparser(path): path must be a pathlib.Path")
-    if not path.exists():
-        raise FileNotFoundError(f"File not found: {path}")
-    if not path.is_file():
-        raise IsADirectoryError(f"Expected a file, got: {path}")
+    # 1) Collect all unique symbols with indegree initialized to 0
+    in_degree: dict[str, int] = {}
+    for w in words:
+        for ch in w:
+            in_degree.setdefault(ch, 0)
 
-    # Stats
-    stats = ParseStats(
-        unique_symbols=set(),
-        unique_symbol_counter=0,
-        total_lines_seen=0,
-        lines_skipped_empty=0,
-        max_line_len = 0
-    )
+    # 2) Build directed edges from adjacent word pairs
+    adj: DefaultDict[str, set[str]] = defaultdict(set)
 
-    lines, _encoding = _iter_text_lines_best_effort(path)
+    for w1, w2 in zip(words, words[1:]):
+        # Invalid prefix case: longer word before its exact prefix
+        if len(w1) > len(w2) and w1.startswith(w2):
+            return None
 
-    best_line: str | None = None
+        # Find first differing character and add constraint
+        for c1, c2 in zip(w1, w2):
+            if c1 != c2:
+                if c2 not in adj[c1]:
+                    adj[c1].add(c2)
+                    in_degree[c2] += 1
+                break
+        # If no break happens, either w1==w2 or one is prefix of the other (valid)
 
-    symbol_list: list[Symbol] = list()
+    # 3) Kahn's algorithm (BFS)
+    q: deque[str] = deque([ch for ch, deg in in_degree.items() if deg == 0])
+    order: list[str] = []
 
-    for raw in lines:
-        stats.total_lines_seen += 1
-        line = _normalize_line(raw)
+    while q:
+        ch = q.popleft()
+        order.append(ch)
 
-        # Ignore lines that are empty or only whitespace
-        if not line or line.isspace():
-            stats.lines_skipped_empty += 1
-            continue
+        for nb in adj.get(ch, ()):
+            in_degree[nb] -= 1
+            if in_degree[nb] == 0:
+                q.append(nb)
 
-        best_line: str | None = line
-        break
-
-    if best_line is None:
-        return ""
-
-    # Update unique symbols set + counter
-    for ch in enumerate(best_line):
-        if ch not in stats.unique_symbols:
-            stats.unique_symbols.add(ch)
-            stats.unique_symbol_counter += 1
-        
-
-    
-
-
-
-    return best_line
-
-
-def get_alphabet() -> list[str] | None:
-
-    # s = Symbol(ch)
-    # symbol_list.append(s)
-
-
-from pathlib import Path
-
-def file_to_ctypes_matrix(file_path: Path, padding_char=b'\x00'):
-    # 1. Read lines from file using pathlib
-    # .read_text().splitlines() handles different newline formats automatically
-    lines = file_path.read_text().splitlines()
-    
-    if not lines:
+    # 4) Cycle detection
+    if len(order) != len(in_degree):
         return None
 
-    # 2. Determine dimensions for the matrix
-    num_rows = len(lines)
-    num_cols = max(len(line) for line in lines)
+    return order
 
 
+def main(argv: Sequence[str] | None = None) -> int:
+    """
+    """
+    # Part 1 - Reading arguments
+    argv = sys.argv[1:] if argv is None else list(argv)
+    args = _build_parser().parse_args(argv)
 
-    return matrix
+    # Part 2 - Treating data
+    words, stats = _read_words_robust(args.input_path)
 
-# Example Usage
-path = Path("example.txt")
-path.write_text("Hello\nWorld!\nPython") # Create a dummy file
+    # Part 3 - Performing Alien Dictionary Ordering
+    order: list[str] = alien_order_robust(words)
 
-matrix = file_to_ctypes_matrix(path, padding_char=b' ')
+    if args.output_path is None:
+        # print to stdout
+        sys.stdout.write("".join(order) + "\n")
+    else:
+        args.output_path.parent.mkdir(parents=True, exist_ok=True)
+        args.output_path.write_text("".join(order) + "\n", encoding="utf-8")
 
-# Verify the result (printing as a grid)
-for row in matrix:
-    print(f"|{''.join(c.decode('utf-8') for c in row)}|")
-
-
-
-def main(argv: list[str] = sys.argv) -> None:
-
-
-    if not isinstance(
-        _challenge15_parser(argv=argv),
-        dict,
-    ):
-        raise TypeError(
-            "Input arguments could not be read:\n"
-            f"{'\n'.join(argv)}\n"
-            "Please check your command input and Python Version (3.10+)"
-        )
+    return 0
 
 
 # --------------------------------------------------------------------------------------
 # Exports
 # --------------------------------------------------------------------------------------
 __all__: list[str] = [
-    "hyperparser",
+    "main",
 ]
 
 
@@ -449,4 +413,4 @@ __all__: list[str] = [
 # Test | python challenge_15.py input-utf8.txt > out.txt 2>&1
 # -------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    raise SystemExit(main(argv=sys.argv[1:]))
+    raise SystemExit(main())

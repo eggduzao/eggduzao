@@ -167,10 +167,10 @@ Feel free to use any of the technologies displayed here.
 <a id="profile"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-profile.svg" width="880">
 
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Knowledge Domains](#cv)</b> | <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Technical Quality](#techstack)</b> | Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Leadership](#career)</b> | Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Broad Curriculum](#cv)</b> | Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
 <!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
 <details>
@@ -180,35 +180,35 @@ Feel free to use any of the technologies displayed here.
 
 Hello, and welcome to my profile. My name is Eduardo — grab a cup of coffee and allow me to introduce myself.
 
-I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet  
-(and occasionally argue — that’s fine, I’m a trained diplomat).
+I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet
+(and occasionally argue — that’s fine, [I’m a trained diplomat](#education)).
 
-My work focuses on **end-to-end ML systems**. In practice, that means taking _messy real-world data_, _ingesting_ it (a fancy name for ETL), and serving it hot and fresh for:
+My work focuses on **end-to-end ML systems**. In practice, that means taking _messy real-world data_, _ingesting_ it (ETL, in industry terms), and serving it reliably for downstream use:
 
 - **Large-scale processing** — things need to flow smoothly.
-- **Model training** — using math to reward or punish learning machines  
+- **Model training** — using math to reward or punish learning machines
   (I once broke a gradient in an RNN’s head, but it was already vanishing).
 - **Deployment** — when ideas meet reality and still have to behave.
 
-I care deeply about **reliability**, **clarity of design**, and **systems that age well** — like a good Madeira wine.
+I care deeply about **reliability**, **scalability**, and **systems that age well** — like a good Madeira wine.
 
-I have experience designing **modular data pipelines**, **scalable data engineering architectures**, **cloud-orchestrated systems**, and **ML workflows** using _Python-centric_ stacks and modern _deep learning frameworks_. This usually translates to:
+I have experience designing **modular data pipelines**, **scalable data engineering architectures**, **container-orchestrated systems**, and **ML workflows** using _Python-centric_ stacks and modern _deep learning frameworks_. This usually translates to:
 
 - **Production ML and data pipelines** with strong _reproducibility_ and _auditability_
 - _Scalable_ processing for _high-volume analytical_ workloads
 - _Feature engineering layers_ serving both _training_ and _inference_
 - **Bioinformatics workflows** integrated with _HPC_ and _cloud environments_
 
-I often work at the boundary between scientific complexity and engineering constraints, translating domains such as  
-_Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
+I often work at the boundary between scientific complexity and engineering constraints, [translating domains](#communication) such as Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
 
-I value **clean design**, **explicit trade-offs**, and **systems that are understandable by humans** — not just machines.  
-**Ethics**, **reproducibility**, and **long-term sustainability** are not optional; they are part of the job.
+I value **[clean design](#causes)**, **[explicit trade-offs](#roadmap)**, and **[systems that are understandable by humans](#research)** — not just machines.
 
-Currently open to on-site or hybrid roles and long-term projects.  
-Relocation and onboarding take planning — good systems (and good moves) benefit from doing things properly.
+**[Ethics](#ethics)**, **[reproducibility](#gitanalytics)**, and **[long-term sustainability](#pinned)** are not optional; they are part of the job.
 
-Cheers.
+[Availailability](#availability) | Currently open to on-site or hybrid roles and long-term engagements. [See contact details](#contact).
+Relocation and onboarding take planning - good systems (and good moves) benefit from doing things properly.
+
+[Cheers](#bloom).
 
 </details>
 
