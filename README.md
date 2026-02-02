@@ -167,10 +167,10 @@ Feel free to use any of the technologies displayed here.
 <a id="profile"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-profile.svg" width="880">
 
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Knowledge Domains](#cv)</b> | <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Technical Quality](#techstack)</b> | Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Leadership](#career)</b> | Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>[Broad Curriculum](#cv)</b> | Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b><a href="#roadmap">Knowledge Domains</a></b> | <b>Machine Learning & Data Systems</b> at the intersection of <b>Biology</b>, <b>Medicine</b>, and <b>Software Engineering</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b><a href="#techstack">Technical Quality</a></b> | Focused on <b>end-to-end ML systems</b>: from messy data -> reliable models -> long-lived production </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b><a href="#career">Leadership</a></b> | Strong emphasis on <b>reproducibility</b>, <b>auditability</b>, and <b>systems that age well</b> </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b><a href="#cv">Broad Curriculum</a></b> | Experience spanning <b>ML pipelines</b>, <b>data engineering</b>, <b>cloud/HPC</b>, and <b>bioinformatics</b> </p>
 <!-- - Currently open to <b>long-term, technically demanding role</b>s (on-site or hybrid) -->
 
 <details>
