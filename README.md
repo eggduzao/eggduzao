@@ -178,19 +178,19 @@ Feel free to use any of the technologies displayed here.
 
 <br/>
 
-Hello, and welcome to my profile. My name is Eduardo — grab a cup of coffee and allow me to introduce myself.
+Hello, and welcome to my profile. My name is Eduardo - grab a cup of coffee and allow me to introduce myself.
 
 I build **Machine Learning & Data Systems** where **Biology**, **Medicine**, and **Software Engineering** meet
-(and occasionally argue — that’s fine, [I’m a trained diplomat](#education)).
+(and occasionally argue - that's fine, [I'm a trained diplomat](#education)).
 
 My work focuses on **end-to-end ML systems**. In practice, that means taking _messy real-world data_, _ingesting_ it (ETL, in industry terms), and serving it reliably for downstream use:
 
-- **Large-scale processing** — things need to flow smoothly.
-- **Model training** — using math to reward or punish learning machines
-  (I once broke a gradient in an RNN’s head, but it was already vanishing).
-- **Deployment** — when ideas meet reality and still have to behave.
+- **Large-scale processing** - things need to flow smoothly.
+- **Model training** - using math to reward or punish learning machines
+  (I once broke a gradient in an RNN's head, but it was already vanishing).
+- **Deployment** - when ideas meet reality and still have to behave.
 
-I care deeply about **reliability**, **scalability**, and **systems that age well** — like a good Madeira wine.
+I care deeply about **reliability**, **scalability**, and **systems that age well** - like a good Madeira wine.
 
 I have experience designing **modular data pipelines**, **scalable data engineering architectures**, **container-orchestrated systems**, and **ML workflows** using _Python-centric_ stacks and modern _deep learning frameworks_. This usually translates to:
 
@@ -201,7 +201,7 @@ I have experience designing **modular data pipelines**, **scalable data engineer
 
 I often work at the boundary between scientific complexity and engineering constraints, [translating domains](#communication) such as Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
 
-I value **[clean design](#causes)**, **[explicit trade-offs](#roadmap)**, and **[systems that are understandable by humans](#research)** — not just machines.
+I value **[clean design](#causes)**, **[explicit trade-offs](#roadmap)**, and **[systems that are understandable by humans](#research)** - not just machines.
 
 **[Ethics](#ethics)**, **[reproducibility](#gitanalytics)**, and **[long-term sustainability](#pinned)** are not optional; they are part of the job.
 
@@ -217,16 +217,22 @@ Relocation and onboarding take planning - good systems (and good moves) benefit 
 <a id="career"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-career.svg" width="880">
 
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior | Full-time Senior Machine Learning & Bioinformatics Researcher | Germany </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2024 | Senior Industry | Machine Learning & Bioinformatics Researcher | Germany </p>
+
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2022 | Industry | Carreer-shift to Industry | Turku Biosciences | Finland </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2020 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | PhD | Precision Medicine & Machine Learning | Harvard University | Summa Cum Laude </p>
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Deep Learning & Bioinformatics | RWTH Aachen University | Summa Cum Laude </p>
+
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2020 | Outreach | Award-Winning Outreach Campaign | Göttingen University Medical School | Germany </p>
+
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | Senior Researcher | Machine Learning & Bioinformatics Researcher | Dana-Farber Cancer Institute | USA </p>
+
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2016 | Patent | LAG3-Targeting Cancer Therapy | Current owner: Bristol Myers Squibb | USA </p>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
 
 <br/>
+
+## Career Analytics
 
 <div align="center">
 
@@ -303,14 +309,28 @@ Name: Eduardo G Gusmao
 Role: Senior Machine Learning Researcher | Applied Scientist
 Contact: eduardo@gusmaolab.org | English, Portuguese
 Education: 2 x PhD | Machine Learning & Precision Medicine
-Research_Profile: 5+ years experience on Translational & Production-Aware Method Development
+Research_Profile: 8+ years experience on Translational & Production-Aware Method Development
+
+Professional_Engagements:
+  Technical University of Munich:
+    - Title: Senior Machine Learning Researcher
+    - Date: Apr 2024 - Current
+    - "Role & Scope": 
+      - Lead a multi-disciplinary phenotype & EHR AI initiative.
+      - Coordinate a distributed team of biologists, computer engineers and clinicians.
+      - Establish cross-team workflows.
+      - Act as technical translator between scientists and stakeholders.
+    - "Key Outcomes":
+      - Delivered core system ~8 months ahead of schedule.
+      - System performance improvements measured in orders of magnitude over prior lab-bound workflows.
+      - Contributed to large-scale genotype-phenotype analyses across tens of thousands of individuals.
 
 Development_Environment:
-  Infrastructure: AWS | HPC | GCP
-  Languages: Python | SQL | C/C++ | R | Bash/Shell
-  MLStack: PyTorch | TensorFlow | JAX | Spark | Grafana
-  DataStack: PostgreSQL | MongoDB | Pinecone | REST/GraphQL | Pandas
-  SysOps: (Micro)Mamba | Docker | Kubernetes | GH Actions | Prometheus
+  - Infrastructure: AWS | HPC | GCP
+  - Languages: Python | SQL | C/C++ | R | Bash/Shell
+  - MLStack: PyTorch | TensorFlow | JAX | Spark | Grafana
+  - DataStack: PostgreSQL | MongoDB | Pinecone | REST/GraphQL | Pandas
+  - SysOps: (Micro)Mamba | Docker | Kubernetes | GH Actions | Prometheus
 ```
 
 <details>
@@ -323,45 +343,146 @@ Name: Eduardo G Gusmao
 Role: Senior Machine Learning Researcher | Applied Scientist
 Contact: eduardo@gusmaolab.org | English, Portuguese, German, Spanish
 
-Education:
-  - PhD: 2017 | Harvard University & RWTH Aachen University | Machine Learning & Precision Medicine | Summa Cum Laude
-  - BSc_MSc: 2013 | Federal University of PE | Computer Science & Machine Learning | GPA 3.96/4.00
+Summary: Senior Research Engineer with 8+ years of experience building scalable ML systems for genomics, multi-omics, and biomedical data, bridging research prototypes and production-grade pipelines across large clinical datasets.
+
 Core_Expertise:
   - "Machine Learning"
   - "Deep Learning"
   - "Statistical Modeling"
   - "Bioinformatics"
-Research_Profile:
+
+Career_Profile:
   - "Method Development"
   - "Translational Modeling"
   - "Production-Aware Research"
 
+Professional_Engagements:
+
+  "Technical University of Munich":
+    - Title: Senior Machine Learning Researcher
+    - Date: Apr 2024 - Current
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Lead a multidisciplinary phenotype + EHR AI initiative within a national-scale precision-medicine program spanning Germany and Brazil, defining technical direction, delivery cadence, and quality standards.
+      - Coordinate a distributed team of clinicians, biologists, and ML engineers to design, implement, and operate AI-assisted ETL, harmonization, and data-quality pipelines for heterogeneous real-world clinical data.
+      - Architect end-to-end workflows across Python, R, SQL/NoSQL, HPC clusters (SLURM/OpenPBS), and containerized deployments (Docker/Kubernetes), with reproducible environments, automated testing, and CI/CD release governance.
+      - Act as the primary technical interface across medical, biological, and computational stakeholders, translating clinical and research requirements into production-grade specifications and maintainable system components.
+    - Key_Outcomes:
+      - Delivered the core platform approximately 8 months ahead of schedule, unblocking early model training, stakeholder validation, and phased rollout to downstream teams.
+      - Achieved multi-order-of-magnitude throughput improvements over prior lab-bound workflows through schema standardization, automated validation, and optimized HPC execution.
+      - Enabled large-scale genotype-phenotype analyses across tens of thousands of individuals by providing harmonized feature stores, provenance tracking, and analysis-ready datasets for precision-medicine studies.
+
+  "University of Turku":
+    - Title: Senior Machine Learning Engineer
+    - Date: Mar 2022 - Apr 2024
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Designed and delivered an end-to-end spatial single-cell RNA-seq analysis platform, spanning laboratory inputs, scalable computation, and user-facing analytical outputs.
+      - Led a senior team of bioinformaticians and computer scientists to develop and validate deep-learning-based evaluation frameworks for complex biological signals.
+      - Orchestrated heterogeneous production stacks across Python, Docker, JavaScript, and GPU-enabled HPC clusters into a unified, reproducible workflow.
+    - Key_Outcomes:
+      - Delivered a production-ready, end-to-end pipeline in under 6 months, achieving strong internal adoption across collaborating research groups.
+      - Enabled methodological advances supporting T/NK-cell cancer immunotherapy research through robust spatial and single-cell modeling frameworks.
+      - Awarded Venia Docendi (Docentship) following extensive teaching, independent evaluation, and demonstrated academic leadership.
+
+  "Göttingen University Medical School":
+    - Title: Senior Bioinformatics & Machine Learning Engineer
+    - Date: Jan 2020 - Mar 2022
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Unified fragmented ETL and data-quality processes into a single automated platform, establishing reliable ingestion, validation, and auditability across heterogeneous biomedical datasets.
+      - Eliminated redundant and unsafe data flows through systematic automation, schema validation, and defensive pipeline design.
+      - Built and co-maintained internal data and analytics frameworks using Python and multi-model database systems to support scalable research and operational workloads.
+    - Key_Outcomes:
+      - Delivered ~60% productivity gains across data-processing workflows by reducing manual intervention and pipeline fragmentation.
+      - Reduced wet-lab material consumption and operational costs through earlier error detection, reproducible preprocessing, and tighter data-experiment feedback loops.
+      - Led technical and outreach initiatives during the COVID period, supporting institutional response and cross-team coordination.
+
+  "Dana-Farber Cancer Institute":
+    - Title: Senior Bioinformatics Scientist
+    - Date: Jan 2018 - Jan 2020
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Developed integrated computational and experimental pipelines supporting CRISPR-based target discovery for cancer immunotherapy.
+      - Co-authored and maintained strategic bioinformatics tools adopted in hospital and translational research settings.
+      - Collaborated across major academic and clinical institutions, including Harvard T.H. Chan, Massachusetts General Hospital, and the Broad Institute, aligning computational analyses with clinical and experimental priorities.
+    - Key_Outcomes:
+      - Contributed to target-discovery efforts supporting LAG-3-based immunotherapy programs, which advanced into Phase II/III clinical trials with reported objective response rates (ORR) >50% and complete responses (CR) in ~16% of patients.
+      - Work contributed to intellectual property later licensed as Relatlimab-rmbw, acquired by Bristol Myers Squibb for approximately USD 3.5M.
+      - Contributed to the development of Relatlimab (commonly combined with Nivolumab), now approved and marketed as Opdualag, supporting improved outcomes for patients with advanced cancers.
+
+  "Harvard T.H. Chan School of Public Health":
+    - Title: Machine Learning Researcher
+    - Date: Jun 2015 - Jan 2018
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Applied deep-learning methods to tumor microenvironment modeling and immunotherapy response prediction, integrating experimental and computational signals.
+      - Introduced agile development practices (Scrum-style iteration, backlog prioritization, reproducible milestones) into computational research workflows.
+      - Developed and operated Python-based machine-learning pipelines on HPC infrastructure, supporting large-scale model training and evaluation.
+    - Key_Outcomes:
+      - Authored a novel deep-learning-based immunotherapy biomarker that increased effective CRISPR/Cas9 screening throughput by ~40% through improved off-target filtering.
+      - Reduced wet-lab experimentation costs by over 60% by computationally prioritizing high-confidence targets ahead of experimental validation.
+      - Enabled the study of multiple novel immunotherapy targets (including LAG-3, B7-H3/BCMA, and CD3), establishing a computational foundation for subsequent NK-cell-focused immunotherapy research.
+
+  "RWTH Aachen University":
+    - Title: Machine Learning Researcher
+    - Date: Sep 2011 - Jun 2015
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Conducted machine-learning and deep-learning research using Python-based pipelines and HPC infrastructure to address large-scale biomedical and regulatory genomics problems.
+      - Designed, trained, optimized, and maintained ML/DL models using reproducible, performance-aware best practices across the full model lifecycle.
+      - Authored and maintained a comprehensive regulatory genomics and epigenomics analysis framework supporting large-scale integrative studies.
+    - Key_Outcomes:
+      - Developed a bias-reduction and training-optimization framework that reduced model training time by ~20% without performance degradation.
+      - Co-authored evaluation tooling that improved model performance by ~5% (AUPRC), supported by robust statistical comparison using Friedman-Nemenyi post-hoc testing.
+      - Introduced production-grade experiment monitoring (Prometheus, Grafana), increasing team visibility and improving overall productivity by ~30%.
+      - Delivered regular deep-learning seminars with sustained participation, consistently positive feedback, and zero course drop-out.
+
+  "Informatics Center (CIn/UFPE)":
+    - Title: Machine Learning Engineer
+    - Date: Oct 2007 - Sep 2011
+    - Type: On-Site
+    - Role_&_Scope: 
+      - Built and operated machine-learning pipelines and ETL preprocessing workflows on a self-hosted HPC cluster, supporting data-intensive research workloads.
+      - Designed and implemented a robust ETL backbone (pre-cloud / pre-AWS) that established durable data-ingestion and preprocessing standards adopted across research groups.
+      - Introduced cluster-wide monitoring and observability using Prometheus and Grafana, and delivered hands-on training sessions adopted by multiple teams.
+    - Key_Outcomes:
+      - Increased lab productivity by ~50% and processing throughput by ~30% by introducing Scrum-based planning and execution into technical workflows.
+      - Co-authored data-handling protocols that reduced data leakage and redundancy by ~35%.
+      - Reduced unsafe and cyclic ETL patterns by ~45% through systematic automation, validation, and pipeline restructuring.
+
+Education:
+  - PhD2: 2015 - 2018 | Harvard University Medical School (Boston, USA) | Biomedical Informatics | Summa Cum Laude
+  - PhD1: 2011 - 2015 | RWTH Aachen University (Aachen, Germany) | Life Sciences | Summa Cum Laude
+  - MSc: 2010 - 2011 | Federal University of Pernambuco (Recife, Brazil) | Machine & Deep Learning | Grade 100%
+  - BSc: 2006 - 2010 | Federal University of Pernambuco (Recife, Brazil) | Computer Science | Grade 89.90%
+
 Development_Environment:
-  Hardware: ["AMD", "ARM", "NVIDIA", "Intel"]
-  OS: ["MAC OS X", "Ubuntu", "Debian", "Fedora", "Windows"]
-  Infrastructure:
+  - Hardware: ["AMD", "ARM", "NVIDIA", "Intel"]
+  - OS: ["MAC OS X", "Ubuntu", "Debian", "Fedora", "Windows"]
+  - Infrastructure:
     - "Bare-Metal Servers"
     - "VMs"
     - Cloud_Computing: ["AWS", "GCP", "Azure"]
     - HPC_Paradigm: ["Slurm", "OpenPBS", "MPI"]
     - Infra_as_Code: ["Terraform", "CloudFormation", "Pulumi"]
 
-  Languages:
+  - Languages:
     - Multi_Paradigm: ["Python", "C/C++", "R", "Bash/Shell", "Julia", "Go", "Rust", "Kotlin"]
     - Web_OO: ["TypeScript", "Java", "Javascript", "C#", "Ruby", "PHP"]
     - Markup: ["YAML", "Quarto", "LaTeX", "HTML/CSS/Markdown"]
     - Declarative: ["SQL", "HCL"]
-  Runtimes: ["CPython", "JVM", "Node.js"]
+  - Runtimes: ["CPython", "JVM", "Node.js"]
 
-  ML_Stack:
+  - ML_Stack:
     - Frameworks: ["PyTorch", "JAX", "TensorFlow", "Keras", "Hugging Face", "NLTK", "Scikit-Learn"]
     - Engines: ["Spark", "Ray", "TensorRT"]
     - Models: ["Generative Models", "Variational Inference", "Graph Neural Networks", "Attention Hypergraph"]
 
-  Data_Stack:
+  - Data_Stack:
     - Databases:
       - SQL: ["PostgreSQL", "MySQL"]
-      - NoSQL: ["MongoDB", "Arangodb"]
+      - NoSQL: ["MongoDB", "Arangodb", "Databricks"]
       - Vector: ["Pinecone", "FAISS"]
     - APIs: ["REST", "GraphQL", "gRPC"]
     - Data_Software: ["Power BI", "Microsoft Suite", "HDF5/Parquet/Zarr"]
@@ -370,11 +491,11 @@ Development_Environment:
       - Big_Data: ["Dask", "Polars"]
       - Specialized: ["PyCaret", "OpenCV"]
 
-  Web_Stack:
+  - Web_Stack:
     - Frameworks: ["Django", "React", "Next.js", "Express.js"]
     - Dashboards: ["Dash", "Streamlit", "Gradio"]
 
-  Systems:
+  - Systems:
     - Version_Control: ["Git", "Github"]
     - Packaging: ["pip", "(micro)mamba", "(mini)conda", "poetry", "npm"]
     - Containers: ["Docker", "Singularity", "Podman"]
@@ -414,7 +535,7 @@ Development_Environment:
 
 ### Practical notes
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Preferred contact: Email
-<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Response time: 1–2 business days
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Response time: 1-2 business days
 <p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; Open to remote, hybrid, or relocation
 
 ### Details
@@ -670,14 +791,132 @@ Placeholder.
 <a id="research"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-research.svg" width="880">
 
-Placeholder.
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Machine & Deep Learning</b> | <a href="#home">Repository</a> | <a href="#home">Publication</a>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Variational Inference</b> | <a href="#home">Repository</a> | <a href="#home">Publication</a>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Precision Medicine</b> | <a href="#home">Repository</a> | <a href="#home">Publication</a>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; <b>Regulatory Genomics</b> | <a href="#home">Repository</a> | <a href="#home">Publication</a>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
 
 <br/>
 
-Placeholder.
+### Global age-sex-specific all-cause mortality and life expectancy estimates for 204 countries and territories and 660 subnational locations, 1950-2023: a demographic analysis for the Global Burden of Disease Study 2023
+
+**The Lancet** · Oct 18, 2025
+
+Contributions:
+- Responsible for orchestrating the LATAM-branch with 45+ PIs and 200+ researchers.
+- Horizontal meetings for data and experience sharing have shown great success, with ~380% more efficiency than the second most efficient branch - per capita.
+- Has solved pharmacological conflict of interests by cross-deployment and blind-genotype blind-phenotype strategy, which exhibit 17% increased accuracy over North America (first COI - percapita) and 5% over Asia (second COI - per capita).
+
+---
+
+### A ONECUT1 regulatory, non-coding region in pancreatic development and diabetes
+
+**Cell Reports** · Nov 26, 2024
+
+Contributions:
+- The tool ``Bloom`` has increased analysis mechanism by promoting different views into the regulatory spatial configuration, resulting in ~50% wet-lab equipment cost reduction and solving a stalled-case.
+- Provided personal guidance towards architecture and Hi-C methodology, saving 15% overall lab-time.
+- Overall, this was the first non-trivial non-intermediary-distance (>1Gbp) lncRNA interference in a region unknown to be a regulatory enhancer.
+
+---
+
+## Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021
+
+**The Lancet** · Jul 15, 2023
+
+Contributions:
+- Responsible for orchestrating a team of 3 brazilian PIs and 5 independent investigators.
+- Used scrum, coupled with CRISP-DM, delivering net gains (profitability converted back) through network revenue saving and wet/dry-lab material cost reduction.
+- Developed national-scale geno/phenotype QC pipeline - ``Fabric`` (``Phenoteka`` Module) - used across 20+ institutes.
+
+---
+
+### 100,000 Genomes Pilot on Rare-Disease Diagnosis in Health Care - Preliminary Report
+
+**The New England Journal of Medicine** · Oct 11, 2022
+
+Contributions:
+- Developed ``Blacksmith``, that coupled with Bloom improved operating margin by over 15%.
+- Freed at least 15 engineering hours per week with Blacksmith coupled with ``Apollo``.
+- Intending to lower carbon footprint, we adopted a trademarked DB 'bit-brushing' methodology (currently owned by Databricks Inc.).
+
+---
+
+### HMGB1 coordinates SASP‐related chromatin folding and RNA homeostasis on the path to senescence
+
+**Molecular Systems Biology** · Jun 24, 2021
+
+Contributions:
+- Analized Spatial Chromatin Biology and RNA-seq to identify - for the first time - HMGB1 as a 'rheostat' factor.
+- Reduced cloud compute costs by 40% using ``Apollo``'s strong mathematical features and Bloom to analyse Chromatin conformation.
+- After this project's results, we have earned an ESG compliance through impeccable waste management and safety handling.
+
+---
+
+### Redundant and specific roles of cohesin STAG subunits in chromatin looping and transcriptional control
+
+**Genome Research** · Apr 6, 2020
+
+Contributions:
+- Analized most omics in a single project: ChIP-seq, degron-X, RNA-seq, Hi-C, STORM, DNase-seq, ATAC-seq, MSMS and MS-based microscopy.
+- Developed Musique, shortening development cycles by ~9 weeks.
+- Musique saved 300 GPU-hours per month by performing simple heuristics which are generalizeable to any dataset.
+
+### Spatial chromosome folding and active transcription drive DNA fragility and formation of oncogenic MLL translocations
+
+**Molecular Cell** · Jul 25, 2019
+
+Contributions:
+- Patented technique for BLISS-seq data processing, earning ~25% extra funds for the laboratory.
+- Lower wet-lab costs using dry-lab tools by ~30% (estimated for this project); achieving reproducible and insightful results on MLL fusions.
+- Created the triple-correlation method. Translating category theory into a real-world phenomenon.
+
+---
+
+### HMGB2 loss upon senescence entry disrupts genomic organisation and induces CTCF clustering across cell types
+
+**Molecular Cell** · May 17, 2018
+
+Contributions:
+- Developed ``Bloom`` and ``Apollo``, which reduced processing time by at least 3 months.
+- Very agile methodology with microprocessed multicycled days, leading to novel discoveries and decreasing overall time-to-delivery.
+- Reduced local infrastructure storage footprint by ~100TB with ``Bloom`` & ``Apollo``.
+
+---
+
+### Integrated genomic and molecular characterization of cervical cancer
+
+**Nature** · Jan 23, 2017
+
+Contributions:
+- Devised bioinformatics pipelines with collaborators and created the Gaussian-as-DPMM method of clustering, increasing speed by, at least, ~100x.
+- Clustering was able to identify 3+ unique subtypes never previously reported.
+- Created a deep regulatory network, especially with SHKBP1 ERBB3 and TGFBR2; which contained 98% of the cancer mortality information variability.
+
+---
+
+### Analysis of computational footprinting methods for DNase sequencing experiments
+
+**Nature Methods** · Feb 22, 2016
+
+Contributions:
+- Landmark study on comparing 12+ footprinting methods. The study was the cover of **Nature Methods** magazine.
+- Without any dry experiment, we were able to identify the limits of sequencing technologies, and propose results that exceded ~5% AUPR of known methods.
+- Our method - Olympus (published in 2023) - offers ~7x most complete analysis of regulatory genomics than any other tool.
+
+---
+
+### Epigenetic program and transcription factor circuitry of dendritic cell development
+
+**Nucleic Acids Research** · Oct 17, 2015
+
+Contributions:
+- First use of ``Faun``, the motif enrichment analysis that uses hypergeometric distributions to query the sensitivity and specificity of TF occupancy in a certain genomic region.
+- Proposed the usage of ``Cytoscape``, widely minimising meeting preparation time by ~25%.
+- Proposed use of fewer histone modification essays by recreating chromatin states in silico; thus, minimizing project costs by ~30%
 
 </details>
 
@@ -734,7 +973,10 @@ Placeholder.
 <a id="education"></a>
 <img src="https://www.gusmaolab.org/images/github/section/section-education.svg" width="880">
 
-Placeholder.
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2018 | PhD | Biomedical Informatics | Harvard Medical School </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2015 | PhD | Life Sciences | RWTH Aachen University </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2011 | MSc | Machine & Deep Learning | RWTH Aachen University </p>
+<p><img src="https://www.gusmaolab.org/images/github/bullet/bullet-header-2.svg" width="10"> &nbsp;&nbsp;&nbsp; 2010 | BSc | Computer Science | RWTH Aachen University </p>
 
 <details>
 <summary><em>I would like to know more...</em></summary>
@@ -822,7 +1064,7 @@ Placeholder.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=30&height=3"/>
 
-<sub>Designed & Built • Eduardo Gusmao • 2025</sub>
+<sub>Designed & Built - Eduardo Gusmao - 2025</sub>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:3b82f6&height=120&section=footer&animation=fadeIn" />
 

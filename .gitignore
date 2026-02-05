@@ -211,3 +211,8 @@ _legacy/
 _inspiration/
 _logo/
 
+# Inputs and Outputs
+*/challenge*/input/
+*/challenge*/output/
+*/challenge*/temp/
+*/challenge*/dictionary/
