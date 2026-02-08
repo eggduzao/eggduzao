@@ -199,7 +199,7 @@ I have experience designing **modular data pipelines**, **scalable data engineer
 - _Feature engineering layers_ serving both _training_ and _inference_
 - **Bioinformatics workflows** integrated with _HPC_ and _cloud environments_
 
-I often work at the boundary between scientific complexity and engineering constraints, [translating domains](#communication) such as Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
+I often work at the boundary between scientific complexity and engineering constraints, [translating domains](#communication) such as _Chromatin Biology_, _Cancer Immunology_, _Gene Regulation_, _Microscopy_, _Spatial Transcriptomics_, and **Precision Medicine** into **clear**, **testable**, and **auditable** computational systems.
 
 I value **[clean design](#causes)**, **[explicit trade-offs](#roadmap)**, and **[systems that are understandable by humans](#research)** - not just machines.
 
@@ -800,6 +800,8 @@ Placeholder.
 <summary><em>I would like to know more...</em></summary>
 
 <br/>
+
+## Selected Publications (decreasing order by year)
 
 ### Global age-sex-specific all-cause mortality and life expectancy estimates for 204 countries and territories and 660 subnational locations, 1950-2023: a demographic analysis for the Global Burden of Disease Study 2023
 
