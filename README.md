@@ -607,6 +607,25 @@ Placeholder.
 
 Placeholder.
 
+<p>
+    <img src="https://github-readme-streak-stats-eight.vercel.app/?user=eggduzao&theme=omni&hide_border=true&sideNums=e8df7a&fire=e8df7a&dates=e8df7a">
+    <br>
+    <img src="https://github-readme-stats-ten-olive-80.vercel.app/api/top-langs/?username=eggduzao&theme=omni&include_all_commits=true&count_private=true&hide_border=true&layout=donut&custom_title=Eduardo's%20Most%20Used%20Languages&text_color=e8df7a">
+    <img src="https://github-readme-stats-ten-olive-80.vercel.app/api?username=eggduzao&show_icons=f&line_height=30&rank_icon=github&theme=omni&hide_border=true&text_color=e8df7a">
+    <br>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=eggduzao&theme=omni&exclude={}" width="33%">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=eggduzao&theme=omni&exclude={exclude}" width="33%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=eggduzao&theme=omni&utcOffset=+5" width="33%">
+    <br>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=eggduzao&theme=omni" width="100%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=eggduzao&point=e8df7a&title_color=ff7ac7&bg_color=191622&line=ff7ac7&hide_border=true&area=true&area_color=e8df7a&color=e8df7a">
+    <p align="center">
+      <img src="assets/snakegridtitle.gif" width="500" >
+    </p>
+    <img src="https://raw.githubusercontent.com/eggduzao/eggduzao/snake/github-snake-dark.svg" width="100%">
+    <br>
+    <img src="https://raw.githubusercontent.com/eggduzao/eggduzao/output-3d-contrib/profile-green-dual.svg" alt="3D Contributions"/>
+</p>
+
 </details>
 
 ---
