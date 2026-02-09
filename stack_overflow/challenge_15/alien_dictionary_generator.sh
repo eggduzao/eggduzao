@@ -12,6 +12,16 @@ python alien_dictionary_generator.py \
        --seed 1987 \
        --mode unique
 
+echo "✨ Creating 100K word-dict 10-100 unique ✨"
+python alien_dictionary_generator.py \
+       --input-path './input/test1-input-symbols.txt' \
+       --output-path './input/test1-100K-10-100.txt' \
+       --input-words 100000 \
+       --min-word-size 10 \
+       --max-word-size 100 \
+       --seed 1987 \
+       --mode unique
+
 echo "✨ Creating 10K word-dict 3-100 unique ✨"
 python alien_dictionary_generator.py \
        --input-path './input/test1-input-symbols.txt' \

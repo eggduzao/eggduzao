@@ -1,822 +1,399 @@
-# GusmaoLab Website (Pelican)
+# 🛸 Alien Dictionary - Solution + Adversarial Generator
 
-This is the source folder for https://www.gusmaolab.org
+## Solution
 
-To build the site:
-
-```bash
-make html
-make serve
-```
-
-To deploy to GitHub Pages:
-
-```bash
-make github
-```
+**tl;dr**
+Correct order: 
+Mystery language: Greek
+'Chameleon' character: Sigma - final-sigma (I do not speek greek, but worked in a lab with many greeks).
 
 ---
 
----
-
-# **GusmaoLab**
-
-Host Code of Eduardo G Gusmao's Lab Website Portfolio and Blogging
-
----
-
----
-
-## **Building this Website:**
-
-### Pelican Setup
-
-- **Step 1**: Inside Your web Micromamba Environment and Install Pelican
-
-Let's begin with the clean and correct Pelican setup inside your web micromamba
-environment.
-
----
-
-_A. Activate Your Micromamba Web Env_
-
-In your terminal:
-
-```bash
-micromamba create -n web python=3.12
-micromamba install -c conda-forge XXXX XXXX XXXX XXXX XXXX XXXX
-micromamba activate web
-```
-
----
-
-_B. Create a Project Folder (Optional but Recommended)_
-
-Wherever you want your Pelican project to live (e.g., ~/Projects/gusmaolab_site):
-
-```bash
-mkdir -p ~/Projects/gusmaolab
-cd ~/Projects/gusmaolab
-```
-
-If you prefer to work inside the eggduzao.github.io repo directly, that's also fine —
-but I recommend keeping Pelican output and GitHub Pages cleanly separated (we'll connect
-them later via GitHub actions).
-
----
-
-_C. Install Pelican and Markdown_
-
-While inside the activated web environment:
-
-```bash
-pip install pelican markdown
-```
-
-You can also pin versions later (pelican==4.9.1 is the current stable as of mid-2025).
-
----
-
-- **Step 2**: Start Pelican
-
-_A. Start Pelican Quickstart Wizard_
-
-Now run:
-
-```bash
-pelican-quickstart
-```
-
-You'll be asked a few questions. Here are some examples of recommended answers:
-
-```
-Where do you want to create your new web site? [.]
-> .
-
-What will be the title of this web site?
-> Gusmao Lab
-
-Who will be the author of this web site?
-> Eduardo Gade Gusmao
-
-What will be the default language of this web site? [en]
-> en
-
-Do you want to specify a URL prefix? (e.g., https://example.com) [Y/n]
-> Y
-
-What is your URL prefix?
-> https://www.gusmaolab.org
-
-Do you want to enable article pagination? [Y/n]
-> Y
-
-How many articles per page? [10]
-> 10
-
-> What is your time zone? [Europe/Rome]
-> America/Bahia
-
-> Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n)
-> Y
-
-> Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n)
-> Y
-
-> Do you want to upload your website using FTP? (y/N)
-> N
-
-> Do you want to upload your website using SSH? (y/N)
-> N
-
-> Do you want to upload your website using Dropbox? (y/N)
-> N
-
-> Do you want to upload your website using S3? (y/N)
-> N
-
-> Do you want to upload your website using Rackspace Cloud Files? (y/N)
-> N
-
-> Do you want to upload your website using GitHub Pages? (y/N)
-> Y
-
-> Is this your personal page (username.github.io)? (y/N)
-> Y
-```
-
----
-
-_B. Folder Structure_
-
-This creates a minimal Pelican structure, like:
-
-```
-├── content/         # where your blog posts go
-├── output/          # where your HTML site will be built
-├── pelicanconf.py   # your main config
-├── publishconf.py   # optional production config
-├── Makefile         # to build & publish
-└── tasks.py 		 # ?
-```
-
----
-
-- **Step 3**: First Test Build\_
-
-_A. Making HTML Content_
-
-Still inside that folder, make all HTML content:
-
-```bash
-make html
-```
-
----
-
-_B. Testing_
-
-Then test locally:
-
-```bash
-make serve
-```
-
-Open http://localhost:8000 and admire your newborn Pelican site.
-
----
-
----
-
-### Clean Python Tooling
-
-**Goal:** Make your gusmaolab project reproducible, shareable, and robust
-
-We'll do this in a professional, version-controlled way.
-
----
-
-**Step 1**: Save Your Environment
-
-Since you're using micromamba (smart move), run this:
-
-```bash
-micromamba list --explicit > environment.txt
-```
-
-This saves the exact package versions in your web env.
-
-You can also create a more readable environment.yml later if needed.
-
----
-
-**Step 2**: Generate Requirements File
-
-Inside your gusmaolab project root:
-
-```bash
-pip freeze > requirements.txt
-```
-
-You'll get lines like:
-
-```
-blinker==1.6.2
-markdown==3.5.2
-pelican==4.9.1
-```
-
-> [!TIP] You can later use pipreqs . --force to generate a minimal requirements.txt
-> based only on actual imports (if you want to keep it clean).
-
----
-
-**Step 3**: Add .gitignore
-
-Create a file called .gitignore in the project root and add this:
-
-```
-__pycache__/
-output/
-cache/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-*.log
-env/
-.env/
-venv/
-.micromamba/
-```
-
-If you're inside a Git repo already, this will prevent unwanted junk from being tracked.
-
----
-
-**Step 4**: Add Python Version Pin (Optional but Recommended)
-
-Create a file:
-
-```bash
-echo "3.12" > .python-version
-```
-
-This helps tools like pyenv, VSCode, and GitHub Actions stick to the correct interpreter
-version.
-
----
-
-**Step 5** (Optional): Poetry
-
-If you'd prefer to manage dependencies with poetry, you could later do:
-
-```bash
-pip install poetry
-poetry init
-```
-
-But since you're using micromamba, it's fine to stay with .txt and environment.txt for
-now.
-
----
-
-**Step 6** (Optional): Add a README.md
-
-You already have one in your GitHub repo — but here in gusmaolab, add a simple one too:
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-# GusmaoLab Website (Pelican)
-
-This is the source folder for https://www.gusmaolab.org
-
-To build the site:
-
-````
-```bash
-make html
-make serve
-```
-````
-
-To deploy to GitHub Pages:
-
-````
-```bash
-make github
-```
-````
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-With this we are keeping it tight, clean, and fully reproducible. Professorial-grade
-engineering.
-
-Project Snapshot so far:
-
-```
-gusmaolab/
-├── content/            ✅
-├── output/             ✅
-├── pelicanconf.py      ✅
-├── publishconf.py      ✅
-├── Makefile            ✅
-├── tasks.py            ✅
-├── .gitignore          ✅
-├── requirements.txt    ✅
-├── environment.txt     ✅
-├── .python-version     ✅
-└── README.md           ✅
-```
-
----
-
-### Pelican Blog + Portfolio Structure
-
-Time to shape your digital lab into a professorial site with blog + portfolio structure,
-simple but elegant — like a handwritten LaTeX equation on a napkin.
-
-**Goal:** Build the following sections:
-
-| Section       | Type     | Folder                      | Purpose                                            |
-| ------------- | -------- | --------------------------- | -------------------------------------------------- |
-| 🧬 Blog       | Articles | content/blog/               | Posts from categories 1.A to 1.D                   |
-| 🧾 About      | Page     | content/pages/about.md      | Your academic + personal summary                   |
-| 🧰 Projects   | Page     | content/pages/projects.md   | Descriptions & links to tools you've made          |
-| ✍️ Writings   | Page     | content/pages/writing.md    | Excerpts from Mikrokosmos or safe fiction          |
-| 🧠 Philosophy | Page     | content/pages/philosophy.md | Optional — Marxism, Freire, open science manifesto |
-| 🪪 CV         | Static   | content/extra/CV.pdf        | Optional link to your CV (later)                   |
-
----
-
-**Step 1**: Create Folder Structure
-
-Inside your project root:
-
-```bash
-mkdir -p content/blog
-mkdir -p content/pages
-mkdir -p content/extra
-```
-
----
-
-**Step 2**: Configure pelicanconf.py
-
-Open pelicanconf.py and set/add these lines:
-
-```python
-# Content organization
-PATH = "content"
-ARTICLE_PATHS = ["blog"]
-PAGE_PATHS = ["pages"]
-STATIC_PATHS = ["extra/CV.pdf"]
-
-# Site structure
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}/index.html'
-ARTICLE_URL = 'blog/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
-
-# Metadata
-TIMEZONE = 'America/Recife'
-DEFAULT_LANG = 'en'
-DEFAULT_DATE_FORMAT = '%d %B %Y'
-
-# Feed generation (disabled for dev)
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-
-# Default pagination
-DEFAULT_PAGINATION = 10
-
-# Blogroll / Links (optional)
-LINKS = (
-    ('LinkedIn', 'https://www.linkedin.com/in/gusmao/'),
-    ('GitHub', 'https://github.com/eggduzao'),
-)
-
-# Social widget (optional)
-SOCIAL = (
-    ('Email', 'mailto:contact@gusmaolab.org'),
-    ('RSS', '/feeds/all.atom.xml'),
-)
-```
-
-We'll later tweak this depending on theme and features.
-
----
-
-**Step 3**: Add Your First Blog Post (placeholder)
-
-Create your first blog post:
-
-```bash
-touch content/blog/2025-08-02-first-post.md
-```
-
-Add some placeholder content to it:
-
-```
-Title: GusmaoLab Is Born
-Date: 2025-08-02
-Category: Meta
-Tags: pelican, welcome
-Slug: first-post
-Author: Eduardo Gusmao
-
-Welcome to the official GusmaoLab website.
-
-This blog will cover bioinformatics, AI, personal projects, literary experiments, and occasional mathematical puns.
-
-Stay tuned.
-```
-
-With later refinements this can be your first post.
-
----
-
-**Step 4**: Add About Page (placeholder)
-
-Include an "about" section by creating a markdown:
-
-```bash
-touch content/pages/about.md
-```
-
-Then, create the following:
-
-```
-Title: About
-
-Eduardo Gade Gusmao is a Brazilian bioinformatician, professor, and writer.
-
-This site hosts his lab notes, blog posts, creative experiments, and tools for science, pedagogy, and beyond.
-
-You can reach him at contact@gusmaolab.org.
-```
-
----
-
-**Step 5**: Add Projects Page (placeholder)
-
-Kick-Start your project page:
-
-```bash
-touch content/pages/projects.md
-```
-
-With a placeholder like:
-
-```
-Title: Projects
-
-### Bloom
-A deep-learning framework for scHi-C chromatin architecture discovery.
-
-### Stainalyzer
-A lightweight, open-source pipeline for histopathological image segmentation and staining quantification.
-
-### TryDInn
-A three-tiered architecture for intelligent missing data imputation in EHRs and omics.
-
-[More coming soon...]
-```
-
----
-
-**Step 6**: Rebuild and Preview
-
-Type the following commands to make all new html:
-
-```bash
-make html
-make serve
-```
-
-And then, open your "local" website at: http://localhost:8000 (it will say where after
-the serve command).
-
-And then check your:
-
-- Blog at /blog/first-post/
-- About at /about/
-- Projects at /projects/
-
-> [!NOTE] Do not forget to kill the job later!
-
----
-
-### GitHub the Project and Activate Flex Theme
-
-Time to shape your digital lab into a professorial site with blog + portfolio structure,
-simple but elegant — like a handwritten LaTeX equation on a napkin.
-
-**Goal:** Set the GitHub Foundations and choose a better theme and beautify the website.
-
-**Step 1**: Put the project in GitHub
-
-_A. Initialize Your Project as a Git Repo_
-
-Go to your project folder:
-
-```bash
-cd ~/Projects/gusmaolab
-```
-
-Then initialize Git:
-
-```bash
-git init
-git status
-```
-
-Make sure every "trash/eraseable file" types are in `.gitingore`. If you are on MAC OS X
-(like me), you might want to add the following (or create a `./clean.sh` to remove these
-files):
-
-```bash
-echo -e ".DS_Store\n.Trashes\n.AppleDouble\n.LSOverride\n._*" >> .gitignore
-```
-
-And, create a first commit:
-
-```bash
-git add .
-git commit -m "Initial commit: Eduardo's beaututiful site begins"
-```
-
----
-
-_B. Push to GitHub_
-
-Since we want to have GitHub Pages auto-deploy later, let's create a repo called
-gusmaolab on GitHub.
+### Details of the Alien Dictionary Problem
+
+Compute a valid symbol ordering (an "alphabet") from an *alien dictionary*-a list of
+words already sorted according to some unknown lexicographic order.
+
+This module provides a robust, production-friendly implementation based on a
+seed-aware variant of **Kahn's topological sorting algorithm**. It extracts the
+minimal precedence constraints implied by the sorted word list and returns one
+valid ordering of all symbols observed in the input.
+
+Overview
+--------
+Given a list of words sorted in an unknown alphabet, we can infer ordering
+constraints by comparing each pair of *adjacent* words:
+
+- Find the first position where two adjacent words differ.
+- If word₁ has symbol `a` and word₂ has symbol `b` at that position, then we must
+  have `a -> b` (meaning `a` comes before `b`).
+- Only the *first* differing position matters-everything after it is unconstrained
+  by lexicographic comparison.
+- Additionally, the dictionary is **invalid** if a longer word appears before its
+  exact prefix (e.g., `"abcd"` before `"ab"`). In that case, no ordering can
+  satisfy the given sorting.
+
+All inferred constraints form a directed graph over symbols. Any valid alphabet
+corresponds to a **topological ordering** of that graph.
+
+Algorithm
+---------
+This implementation uses a seed-aware Kahn's algorithm:
+
+1. **Initialize vertices**
+   Collect every distinct symbol that appears anywhere in the input. This ensures
+   the result includes symbols even if they have no edges.
+
+2. **Build edges from adjacent words**
+   For each consecutive pair `(w1, w2)`, locate the first differing symbol
+   `(c1, c2)` and add a directed edge `c1 -> c2`. Maintain indegree counts.
+
+3. **Topological sort (Kahn)**
+   Start with all symbols whose indegree is zero. Repeatedly remove one such
+   symbol, append it to the output, and decrement the indegree of its outgoing
+   neighbors. When a neighbor reaches indegree zero, enqueue it.
+
+4. **Cycle detection**
+   If we cannot output all symbols (i.e., output length < number of symbols),
+   the constraints contain a cycle and there is no valid ordering.
+
+Seed-aware behavior
+-------------------
+Topological sorting is not necessarily unique. When multiple symbols are eligible
+(indegree zero), this implementation can be made deterministic by seeding the
+selection order (e.g., sorting candidates or using a stable tie-break rule).
+A deterministic tie-break makes results reproducible across runs, which is often
+useful for testing and for downstream pipelines.
+
+Complexity
+----------
+Let:
+
+- `C` be the total number of characters across all words (including duplicates),
+- `V` be the number of unique symbols (vertices),
+- `E` be the number of precedence constraints (edges).
 
 Then:
 
-```bash
-git remote add origin git@github.com:<yourusername>/gusmaolab.git
-git branch -M main
-git push -u origin main
+- Building the symbol set is **O(C)**.
+- Building constraints from adjacent words is **O(C)** in total, because each
+  character position is inspected at most a constant number of times across the
+  adjacent comparisons.
+- Kahn's algorithm runs in **O(V + E)**.
+
+Overall time complexity: **O(C + V + E)**.
+
+Space complexity is **O(V + E)** for the adjacency representation and indegree
+map (the input words dominate separately as **O(C)**).
+
+API
+---
+- ``alien_order_robust(words: list[str] | None) -> list[str] | None``
+
+  Returns a valid ordering as a list of symbols (strings of length 1), or ``None``
+  if the dictionary is inconsistent.
+
+Examples
+--------
+Minimal usage (in Python):
+
+>>> words = ["wrt", "wrf", "er", "ett", "rftt"]
+>>> order = alien_order_robust(words)
+>>> order is not None
+True
+>>> "".join(order)  # one valid answer
+'wertf'
+
+Invalid prefix case:
+
+>>> alien_order_robust(["abcd", "ab"]) is None
+True
+
+Cycle / contradiction:
+
+>>> alien_order_robust(["z", "x", "z"]) is None
+True
+
+Command-line usage (typical pattern)
+------------------------------------
+Assuming you expose a CLI entry point that:
+1) reads one word per line from a file, and
+2) prints the discovered alphabet as a single line,
+
+you might run:
+
+$ python challenge_15.py --help
+$ python challenge_15 ./input/original-so.txt
+$ python challenge_15 ./input/original-so -o ./output/original-so.txt
+
+Input format example (input.txt):
+
+wrt
+wrf
+er
+ett
+rftt
+
+Output (one possible):
+
+wertf
+
+Notes
+-----
+- This solver is Unicode-safe at the symbol level: Python ``str`` elements are
+  Unicode code points. If your "symbols" are multi-codepoint graphemes, you
+  should pre-tokenize accordingly.
+- Determinism is optional. If you need a stable order when ties occur, apply a
+  deterministic policy (e.g., sorting the zero-indegree queue).
+
+---
+
+## Interesting Scripts:
+
+Besides the main script ``challenge_15.py``, I've built a completely harmless **Alien Dictionary Generator Kit**
+
+### What is this?
+
+This project generates **valid Alien Dictionary datasets** (the classic topological-sort / Kahn's Algorithm problem), but with **intentionally adversarial structure**.
+
+The goal is **not** to break machines or people.  
+The goal is to explore **algorithmic limits**, **ambiguity**, **graph sparsity**, and **performance traps** in a playful, pedagogical, and slightly theatrical way.
+
+Think of it as:
+- a **stress test** for reasoning
+- a **benchmark** for implementations
+- a **conversation starter** about algorithm design
+- a **fantasy boss fight** for graph algorithms
+
+All outputs are **correct alien dictionaries**:  
+- lexicographically sorted in a consistent alien order  
+- no invalid prefix violations (e.g. `"a"` always comes before `"aba"`)  
+- solvable via topological sorting (unless *you* intentionally inject cycles)
+
+---
+
+## Core Idea (High Level)
+
+Given:
+- a **true alien alphabet order** (one symbol per line)
+- a set of **words already sorted** according to that order
+
+The participant must:
+1. infer precedence constraints between characters
+2. build a directed graph
+3. perform a topological sort
+
+This generator controls:
+- **how many constraints exist**
+- **where constraints appear**
+- **how expensive they are to detect**
+- **how ambiguous the final ordering is**
+
+---
+
+## Modes
+
+### `unique`
+- Enforces a **total order**
+- Most characters become fully ordered
+- Usually only one valid solution
+- Good for sanity checks and correctness
+
+### `ambiguous`
+- Enforces order only for a **prefix of the alphabet**
+- Remaining characters are unconstrained
+- Many valid outputs
+- Good for testing determinism, tie-breaking, and correctness under ambiguity
+
+### `adversarial` ⭐
+The fun one.
+
+This mode is designed to be **algorithmically annoying but valid**:
+
+- Deep common prefixes (expensive comparisons)
+- Sparse constraints (huge Kahn queues)
+- Clustered partial orders
+- Massive word counts with low information density
+- Many valid answers, few guiding edges
+
+---
+
+## Basic Usage
+
+### Step 1 - Prepare the alien alphabet
+
+Create a UTF-8 text file, one character per line, in the **true alien order**:
+
+```
+a
+b
+c
+d
+...
 ```
 
-And replace <yourusername> with your GitHub UserName handle.
+This file defines the *ground truth* ordering.
 
 ---
 
-**Step 2**: Install the Flex theme
+### Step 2 - Generate a dataset
 
-Inside your Pelican project root:
+Example (moderately adversarial):
 
-```bash
-git submodule add https://github.com/alexandrevicenzi/Flex themes/Flex
-```
-
-Or if themes/ already exists but empty:
-
-```bash
-git clone https://github.com/alexandrevicenzi/Flex.git themes/Flex
-```
-
-In the .gitignore add everything except submodule pointer:
-
-```.gitignore
-# Ignore all theme contents EXCEPT submodule pointer
-themes/Flex/*
-!themes/Flex/.gitmodules
-!themes/Flex/.git
-```
-
-tip: When cloning this repo in the future
-
-Anyone (including you) should use:
-
-git clone --recurse-submodules <repo_url>
-
-Or if already cloned:
-
-git submodule update --init --recursive
-
-Otherwise the themes/Flex folder will appear empty, and the site will crash.
-
----
-
-**Step 3**: Update pelicanconf.py
-
-Inside the `pelicanconf.py` file. Set the theme:
-
-```
-THEME = 'themes/Flex'
-```
-
-And add/override some elegant Flex settings:
-
-```
-# Basic Identity
-SITENAME = 'Eduardo Gusmão'
-SITESUBTITLE = 'Computational Biology • AI • Writing'
-SITEURL = ''
-
-# Bio / Sidebar
-AUTHOR = 'Eduardo Gusmão'
-TAGLINE = 'Bioinformatician, Marxist, and Microscopic Dreamer'
-SITELOGO = '/images/avatar.png'  # optional
-FAVICON = '/images/favicon.ico'  # optional
-
-# Social links (use your links or placeholders)
-SOCIAL = (
-    ('GitHub', 'https://github.com/your-username'),
-    ('Twitter', 'https://twitter.com/your-handle'),
-    ('ORCID', 'https://orcid.org/0000-0000-0000-0000'),
-)
-
-# Menu items
-MAIN_MENU = True
-MENUITEMS = (
-    ('About', '/about.html'),
-    ('Projects', '/projects.html'),
-    ('Writings', '/writing.html'),
-    ('Blog', '/blog.html'),
-)
-
-# Enable Flex features
-USE_FOLDER_AS_CATEGORY = True
-SHOW_ARTICLE_AUTHOR = True
-SHOW_ARTICLE_CATEGORY = True
-SHOW_ARTICLE_TAGS = True
-SHOW_DATE_MODIFIED = True
-
-# Pagination
-DEFAULT_PAGINATION = 10
-
-# Static paths
-STATIC_PATHS = ['images', 'extra/CV.pdf']
-EXTRA_PATH_METADATA = {
-    'extra/CV.pdf': {'path': 'CV.pdf'},
-}
-
-# Flex-specific options
-DISQUS_SITENAME = ''
-GOOGLE_ANALYTICS = ''
-```
-
----
-
-**Step 4**: Build and preview
-
-Then repeat the following commands to make all new html:
-
-```bash
-make html
-make serve
-```
-
-And then, check the new website at your "local" server at: http://localhost:8000.
-
----
-
-_Optional Extra-Glam_
-
-✨ Optional: Add some glam assets
-
-Put your avatar (avatar.png) and favicon (favicon.ico) in content/images/.
-
----
-
----
-
-### GitHub Action for Auto-Deployment
-
-Building a clean separation between your Pelican source (gusmaolab/) and your publishing
-repo (eggduzao.github.io/) is the ideal and most professional website-deployment method.
-
-Currently we have:
-
-| Role             | Repo                        |
-| ---------------- | --------------------------- |
-| Pelican source   | eggduzao/gusmaolab          |
-| HTML deployed to | eggduzao/eggduzao.github.io |
-
-**GOAL**: Set up a GitHub Action in gusmaolab to:
-
-- Build Pelican content
-- Push the generated output/ to the root of the eggduzao.github.io repo (overwriting)
-- Trigger a deploy via GitHub Pages automatically
-
----
-
-**Step 1**: Create a Personal Access Token (PAT) for Deployment
-
-Because this is a cross-repo deploy, we can't rely on the default GITHUB_TOKEN.
-
-1. Go to https://github.com/settings/tokens • Click "Generate new token (classic)" •
-   Name: GusmaoLabPagesDeploy • Expiration: 90 days, 6 months, or No expiration •
-   Scopes: ✅ repo (you only need this one)
-
-Copy the token — you won't see it again.
-
----
-
-**Step 2**: Add the PAT as a Secret in gusmaolab 1. Go to: eggduzao/gusmaolab → Settings
-→ Secrets and variables → Actions → New repository secret 2. Name: PAGES_DEPLOY_TOKEN 3.
-Value: your token from step A
-
----
-
-**Step 3**: Add GitHub Action Workflow in gusmaolab
-
-In your local ~/Projects/gusmaolab/:
-
-mkdir -p .github/workflows touch .github/workflows/deploy.yml
-
-Paste this:
-
-```yaml
-name: Deploy Pelican site to GitHub Pages
-
-on:
-  push:
-    branches: [main] # or "master", depending on your default
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: 📥 Checkout source
-        uses: actions/checkout@v4
-
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: 🧪 Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pelican markdown
-
-      - name: 🛠️ Build site
-        run: pelican content -s publishconf.py
-
-      - name: 🚀 Deploy to GitHub Pages repo
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
-          external_repository: eggduzao/eggduzao.github.io
-          publish_dir: ./output
-          publish_branch: main # or master, depending on that repo's default
-          user_name: "Eduardo Gusmao"
-          user_email: "eduardogade@gmail.com"
-```
-
----
-
-**Step 4**: Configure eggduzao.github.io Repo
-
-Go to Settings > Pages of eggduzao.github.io:
-
-- Source: Deploy from a branch
-- Branch: main or master (whatever the default is)
-- Folder: / (root)
-- Check “Enforce HTTPS”
-
----
-
-**Step 5**: Commit and Push Workflow
-
-In ~/Projects/gusmaolab/:
 
 ```bash
-git add .github/workflows/deploy.yml
-git commit -m "Add GitHub Action for cross-repo deploy to eggduzao.github.io"
-git push origin main
+python alien_generator.py \
+  -input-path alien_alphabet.txt \
+  -output-path dictionary.txt \
+  -mode adversarial \
+  -input-words 200000 \
+  -min-word-size 16 \
+  -max-word-size 64 \
+  -pain-prefix-len 48 \
+  -clusters 32 \
+  -enforce-per-cluster 8 \
+  -inter-cluster-pairs 1 \
+  -noise-ratio 0.92
+```
+
+
+The output file is already **sorted correctly** (given the order of ``alien_alphabet.txt``).
+
+---
+
+## Adversarial Knobs (How to Make It More... ~painful~ interesting)
+
+Below are the levers that shape the difficulty, and where it lies, of the dataset.
+
+### `--pain-prefix-len`
+Controls how **deep** the first difference between adjacent words occurs.
+
+- Low (0-4): classic Alien Dictionary
+- Medium (16-64): long string comparisons
+- High (96+): very expensive naive comparisons
+
+Effect:
+- stresses implementations that compare character-by-character
+- makes prefix scanning the dominant cost
+
+---
+
+### `--clusters`
+Splits the alphabet into **clusters**.
+
+- Constraints are mostly **inside clusters**
+- Very few edges connect clusters
+
+Effect:
+- graph has many weakly-connected components
+- Kahn's algorithm queue stays large
+- ordering is highly ambiguous
+
+---
+
+### `--enforce-per-cluster`
+How many characters per cluster are locally chained.
+
+- 0: almost no structure
+- 4-8: light internal order
+- 16+: clusters behave like mini alphabets
+
+Effect:
+- controls local determinism vs global ambiguity
+
+---
+
+### `--inter-cluster-pairs`
+Number of constraints connecting adjacent clusters.
+
+- 0: clusters completely independent
+- 1-2: barely connected DAG
+- 5+: stronger global structure
+
+Effect:
+- determines whether the graph is barely connected or comfortably connected
+
+---
+
+### `--noise-ratio`
+Fraction of generated words that add **no new constraints**.
+
+- 0.5: informative dataset
+- 0.8-0.9: sparse signal
+- 0.95+: information-theoretic cruelty (still valid... if you're into that stuff...)
+
+Effect:
+- inflates input size without helping the solver
+- punishes algorithms that assume "more data leads to more information"
+
+---
+
+## Suggested Presets
+
+### Balanced Challenge
+
+```bash
+python alien_generator.py \
+-mode adversarial \
+-input-words 100000 \
+-pain-prefix-len 32 \
+-clusters 16 \
+-enforce-per-cluster 6 \
+-inter-cluster-pairs 1 \
+-noise-ratio 0.9
+```
+
+### Reasoning Stress Test
+
+```bash
+python alien_generator.py \
+-input-words 300000 \
+-pain-prefix-len 64 \
+-clusters 32 \
+-enforce-per-cluster 8 \
+-noise-ratio 0.93
+```
+
+### "Final Boss"
+
+```bash
+python alien_generator.py \
+-input-words 1000000 \
+-pain-prefix-len 96 \
+-clusters 64 \
+-enforce-per-cluster 6 \
+-inter-cluster-pairs 1 \
+-noise-ratio 0.95
 ```
 
 ---
 
-**Step 6**: Watch It Run
+## What This Tests (Educationally)
 
-Go to gusmaolab → Actions tab. You'll see the "Deploy Pelican site..." workflow run.
-
-If all goes well, you'll see:
-
-- Green ✅ build
-- New files in eggduzao.github.io repo
-- www.gusmaolab.org updates automatically
-
----
-
-> Optional Tweaks
-
-1. Add a README.md to eggduzao.github.io So visitors to the repo don't get a blank
-   directory
-2. Add .nojekyll to output/ To prevent GitHub from misinterpreting underscores (Pelican
-   does this automatically)
-3. Schedule auto-rebuilds Add on: schedule: to run every night, week, etc.
+- Correct handling of prefix rules
+- Sparse vs dense constraint graphs
+- Ambiguous topological sorts
+- Queue behavior in Kahn's algorithm
+- Determinism under multiple valid answers
+- Performance under high N, low E
+- Separation of time vs space / I/O load vs algorithmic cost
 
 ---
 
+## Disclaimer
+
+> [!IMPORTANT]
+> This is a **dataset generator**, not an exploit.
+> If someone's implementation struggles, that's a teaching moment.
+
 ---
+
+## Final Note
+
+As **my fellow Brazilian** Paulo Freire would say (loosely paraphrased):
+> learning happens where curiosity meets challenge - not where fear meets silence.
+
+---
+
+Enjoy the puzzle 👽  
+And remember: no geography.
