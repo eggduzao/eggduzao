@@ -4,7 +4,10 @@
 
 > *"What if the alphabet itself was the puzzle?"*
 
-This folder contains my solution to **Stack Overflow's February 2026 Monthly Challenge (#15)**, along with a set of input generators ranging from gentle sanity checks to deliberately smartly-harsh (but valid) stress cases.
+This folder contains my solution to **Stack Overflow's February 2026
+Monthly Challenge (#15)**, along with a set of input generators ranging
+from gentle sanity checks to deliberately smartly-harsh (but valid)
+stress cases.
 
 The goal is not just to solve the Alien Dictionary problem -  
 but to explore its algorithmic boundaries.
@@ -13,7 +16,7 @@ but to explore its algorithmic boundaries.
 
 ## Solution Overview (**tl;dr**)
 
-- Correct order: ⪏⊚⊕⊟⊞⨙⊛∭↔⊠⊝৲⊣⊗⇲⊥⊢◉⊡⊤◴⚆⊜↪
+- Correct order: ⪏⊚⊕⊟⊞⨙⊛∭<->⊠⊝৲⊣⊗⇲⊥⊢◉⊡⊤◴⚆⊜↪
 - Mystery language: Greek
 - 'Chameleon' character: Sigma - final-sigma (I do not speek greek, but worked in a lab with many greeks).
 
@@ -196,70 +199,70 @@ For this challenge specifically:
 
 ### Generating Inputs: Unicode Characters
 
-Unicode ranges for ~20K–80K characters (hex)
+Unicode ranges for ~20K-80K characters (hex)
 
-A quick reality check: Unicode doesn’t have 20K distinct “invisible” characters. There are some invisibles/format controls/space variants, but nowhere near that scale. So for “invisible-only” I’ll give you the best concentrated blocks and you’ll end up with hundreds to low thousands, which is already plenty “weird”.
+A quick reality check: Unicode doesn't have 20K distinct "invisible" characters. There are some invisibles/format controls/space variants, but nowhere near that scale. So for "invisible-only" I'll give you the best concentrated blocks and you'll end up with hundreds to low thousands, which is already plenty "weird".
 
-Also: “visible” is fuzzy (fonts differ), but these ranges are a good practical approximation.
+Also: "visible" is fuzzy (fonts differ), but these ranges are a good practical approximation.
 
-A) Mostly visible (safe-ish) symbol sets
+#### Mostly visible (safe-ish) symbol sets
 
 ≈20,448 chars (20K-ish):
-  • start = 0x0021
-  • end   = 0x4FFF
+ - start = 0x0021
+ - end   = 0x4FFF
 
 Why: lots of common scripts/symbols; still some oddities but overwhelmingly visible.
 
 ≈79,840 chars (80K-ish):
-  • start = 0x0021
-  • end   = 0x13FFF
+ - start = 0x0021
+ - end   = 0x13FFF
 
 This pulls in a huge amount of assigned symbols; you will get some that render as tofu in some fonts, but mostly visible.
 
-If you want “more reliably visible” (fewer tofu boxes), use multiple ranges instead of one giant one:
-  • 0x0021–0x007E (Basic Latin, visible punctuation/letters)
-  • 0x00A1–0x024F (Latin-1 Supplement + Latin Extended A/B)
-  • 0x0370–0x052F (Greek + Cyrillic)
-  • 0x2000–0x2BFF (General punctuation + arrows + math-ish + misc symbols)
-  • 0x3040–0x30FF (Hiragana + Katakana)
-  • 0x4E00–0x9FFF (CJK Unified Ideographs) (big chunk; very visible if you have fonts)
+If you want "more reliably visible" (fewer tofu boxes), use multiple ranges instead of one giant one:
+ - 0x0021-0x007E (Basic Latin, visible punctuation/letters)
+ - 0x00A1-0x024F (Latin-1 Supplement + Latin Extended A/B)
+ - 0x0370-0x052F (Greek + Cyrillic)
+ - 0x2000-0x2BFF (General punctuation + arrows + math-ish + misc symbols)
+ - 0x3040-0x30FF (Hiragana + Katakana)
+ - 0x4E00-0x9FFF (CJK Unified Ideographs) (big chunk; very visible if you have fonts)
 
 (You can combine these ranges and stop when you reach your target count.)
 
-⸻
+---
 
-B) “Invisible-only” (best-effort, smaller)
+#### "Invisible-only" (best-effort, smaller)
 
-You won’t get 20K. Here are the densest “mostly invisible/control/format/space” blocks:
-  • 0x0000–0x001F (C0 controls)
-  • 0x007F–0x009F (DEL + C1 controls)
-  • 0x2000–0x200F (spaces + directional marks)
-  • 0x2028–0x202F (line/paragraph separators + narrow no-break space + directional formatting)
-  • 0x2060–0x206F (word joiner + invisible operators + formatting)
-  • 0xFE00–0xFE0F (variation selectors)
-  • 0xFFF0–0xFFFF (specials)
+You won't get 20K. Here are the densest "mostly invisible/control/format/space" blocks:
+ - 0x0000-0x001F (C0 controls)
+ - 0x007F-0x009F (DEL + C1 controls)
+ - 0x2000-0x200F (spaces + directional marks)
+ - 0x2028-0x202F (line/paragraph separators + narrow no-break space + directional formatting)
+ - 0x2060-0x206F (word joiner + invisible operators + formatting)
+ - 0xFE00-0xFE0F (variation selectors)
+ - 0xFFF0-0xFFFF (specials)
 
-These are “invisible-heavy” and will definitely include classic weirdos like zero-width joiner / non-joiner, BOM, etc. Many will print as nothing, or as replacement glyphs depending on your formatting.
+These are "invisible-heavy" and will definitely include classic weirdos like zero-width joiner / non-joiner, BOM, etc. Many will print as nothing, or as replacement glyphs depending on your formatting.
 
-If you want to keep it “not shady,” avoid the bidi override range 0x202A–0x202E and just stick to:
-  • 0x2000–0x200F, 0x2060–0x2064, 0xFE00–0xFE0F
+If you want to keep it "not shady," avoid the bidi override range 0x202A-0x202E and just stick to:
+ - 0x2000-0x200F, 0x2060-0x2064, 0xFE00-0xFE0F
 
-⸻
+---
 
-C) Mostly visible + a pinch of invisible (my favorite)
+#### Mostly visible + a pinch of invisible (my favorite)
 
 Use a big visible block, then sprinkle a small invisible block:
 
 Visible bulk (choose one):
-  • 0x0021–0x4FFF  (≈20K)
-  • 0x0021–0x13FFF (≈80K)
+ - 0x0021-0x4FFF  (≈20K)
+ - 0x0021-0x13FFF (≈80K)
 
 Invisible sprinkle:
-  • 0x2000–0x200F
-  • 0x2060–0x2064
-  • 0xFE00–0xFE0F
+ - 0x2000-0x200F
+ - 0x2060-0x2064
+ - 0xFE00-0xFE0F
 
-That gives you a dataset that’s “normal-looking” but still contains a few gremlins for robustness testing.
+That gives you a dataset that's "normal-looking" but still contains a few gremlins for robustness testing.
 
 ---
 
@@ -421,75 +424,75 @@ is provided in ``assets/`` and previewed in the table below:
 | ⪏⊟⊞⊝◴⇲◉ | αδελφοσ | αδελφός | brother |
 | ⪏⊞⊢⪏◉ | αερασ | αέρας | air |
 | ⪏⨙↪⊡⇲ | αζωτο | άζωτο | nitrogen |
-| ⪏⊛⊟⇲⊣↔ | αηδονι | αηδόνι | nightingale |
-| ⪏⊝⊛∭⊞↔⪏ | αληθεια | αλήθεια | truth |
+| ⪏⊛⊟⇲⊣<-> | αηδονι | αηδόνι | nightingale |
+| ⪏⊝⊛∭⊞<->⪏ | αληθεια | αλήθεια | truth |
 | ⪏⊣⊞৲⇲◉ | ανεμοσ | άνεμος | wind |
 | ⊚⪏⊢⇲◉ | βαροσ | βάρος | weight |
-| ⊚↔⊚⊝↔⇲ | βιβλιο | βιβλίο | book |
+| ⊚<->⊚⊝<->⇲ | βιβλιο | βιβλίο | book |
 | ⊚⇲⊤⊣⇲ | βουνο | βουνό | mountain |
 | ⊚⊢⇲⚆⊛ | βροχη | βροχή | rain |
 | ⊕⪏⊝⪏ | γαλα | γάλα | milk |
 | ⊕⊛ | γη | γη | earth |
 | ⊕⊢⪏৲৲⪏ | γραμμα | γράμμα | letter (character) |
-| ⊕⊤⊣⪏↔⊠⪏ | γυναικα | γυναίκα | woman |
+| ⊕⊤⊣⪏<->⊠⪏ | γυναικα | γυναίκα | woman |
 | ⊟⪏◉⇲◉ | δασοσ | δάσος | forest |
 | ⊟⊞⊣⊡⊢⇲ | δεντρο | δέντρο | tree |
 | ⊟⊢⇲৲⇲◉ | δρομοσ | δρόμος | road |
 | ⊞⊟↪ | εδω | εδώ | here |
-| ⊞↔⊠⇲⊣⪏ | εικονα | εικόνα | image |
-| ⊞⊝⊞⊤∭⊞⊢↔⪏ | ελευθερια | ελευθερία | freedom |
-| ⊞⊝⊥↔⊟⪏ | ελπιδα | ελπίδα | hope |
+| ⊞<->⊠⇲⊣⪏ | εικονα | εικόνα | image |
+| ⊞⊝⊞⊤∭⊞⊢<->⪏ | ελευθερια | ελευθερία | freedom |
+| ⊞⊝⊥<->⊟⪏ | ελπιδα | ελπίδα | hope |
 | ⊞⊗⇲⊟⇲◉ | εξοδοσ | έξοδος | exit |
 | ⊞⊢↪⊡⪏ | ερωτα | έρωτας | passion (romantic love) |
-| ⊛⊝↔⇲◉ | ηλιοσ | ήλιος | sun |
+| ⊛⊝<->⇲◉ | ηλιοσ | ήλιος | sun |
 | ⊛৲⊞⊢⪏ | ημερα | ημέρα | day |
 | ∭⪏⊝⪏◉◉⪏ | θαλασσα | θάλασσα | sea |
 | ∭⊞⇲◉ | θεοσ | θεός | god |
-| ↔⊟⊞⪏ | ιδεα | ιδέα | idea |
-| ↔◉⇲◉ | ισοσ | ίσος | equal |
-| ↔◉⊡⇲⊢↔⪏ | ιστορια | ιστορία | history |
-| ↔⚆∭⊤◉ | ιχθυσ | ιχθύς | fish (formal) |
-| ⊠⪏⨙⪏⊣↔ | καζανι | καζάνι | cauldron |
+| <->⊟⊞⪏ | ιδεα | ιδέα | idea |
+| <->◉⇲◉ | ισοσ | ίσος | equal |
+| <->◉⊡⇲⊢<->⪏ | ιστορια | ιστορία | history |
+| <->⚆∭⊤◉ | ιχθυσ | ιχθύς | fish (formal) |
+| ⊠⪏⨙⪏⊣<-> | καζανι | καζάνι | cauldron |
 | ⊠⪏⊠⇲◉ | κακοσ | κακός | bad |
 | ⊠⪏⊝⇲◉ | καλοσ | καλός | good |
-| ⊠⪏⊢⊟↔⪏ | καρδια | καρδιά | heart |
+| ⊠⪏⊢⊟<->⪏ | καρδια | καρδιά | heart |
 | ⊠⇲◉৲⇲◉ | κοσμοσ | κόσμος | world |
 | ⊝⊞⊗⊛ | λεξη | λέξη | word |
-| ⊝↔৲⊣⊛ | λιμνη | λίμνη | lake |
+| ⊝<->৲⊣⊛ | λιμνη | λίμνη | lake |
 | ⊝⇲⊕⇲◉ | λογοσ | λόγος | reason/speech |
-| ৲⪏⨙↔ | μαζι | μαζί | together |
-| ৲⪏⊡↔ | ματι | μάτι | eye |
-| ৲⊞⊝↔ | μελι | μέλι | honey |
+| ৲⪏⨙<-> | μαζι | μαζί | together |
+| ৲⪏⊡<-> | ματι | μάτι | eye |
+| ৲⊞⊝<-> | μελι | μέλι | honey |
 | ৲⊞⊢⪏ | μερα | μέρα | day |
 | ⊣⊞⊢⇲ | νερο | νερό | water |
-| ⊣⊛◉↔ | νησι | νησί | island |
+| ⊣⊛◉<-> | νησι | νησί | island |
 | ⊣⊤⚆⊡⪏ | νυχτα | νύχτα | night |
 | ⊗⊞⊣⇲◉ | ξενοσ | ξένος | stranger |
 | ⊗⊤⊝⇲ | ξυλο | ξύλο | wood |
 | ⇲৲⇲⊢◴⇲ | ομορφο | όμορφο | beautiful |
-| ⇲⊣⊞↔⊢⇲ | ονειρο | όνειρο | dream |
+| ⇲⊣⊞<->⊢⇲ | ονειρο | όνειρο | dream |
 | ⇲⊗⊤ | οξυ | οξύ | sharp |
 | ⇲⊢⇲◉ | οροσ | όρος | mountain |
-| ⊥⪏↔⊟↔ | παιδι | παιδί | child |
+| ⊥⪏<->⊟<-> | παιδι | παιδί | child |
 | ⊥⇲⊝⊛ | πολη | πόλη | city |
 | ⊥⇲⊡⪏৲⇲◉ | ποταμοσ | ποτάμι | river |
 | ⊥⊤⊢ | πυρ | πυρ | fire |
-| ⊢↔⨙⪏ | ριζα | ρίζα | root |
+| ⊢<->⨙⪏ | ριζα | ρίζα | root |
 | ⊢⇲⊟⇲ | ροδο | ρόδο | rose |
-| ◉⊥↔⊡↔ | σπιτι | σπίτι | house |
+| ◉⊥<->⊡<-> | σπιτι | σπίτι | house |
 | ◉⊡⇲৲⪏ | στομα | στόμα | mouth |
 | ⊡⪏⊗⊛ | ταξη | τάξη | order |
 | ⊡⊞⚆⊣⊛ | τεχνη | τέχνη | art |
 | ⊡⇲⊥⇲◉ | τοποσ | τόπος | place |
 | ⊤⊕⊢⇲ | υγρο | υγρό | liquid |
 | ⊤⊥⊣⇲◉ | υπνοσ | ύπνος | sleep |
-| ◴↔⊝⇲◉ | φιλοσ | φίλος | friend |
+| ◴<->⊝⇲◉ | φιλοσ | φίλος | friend |
 | ◴⊤◉⊛ | φυση | φύση | breath/nature |
 | ◴↪◉ | φωσ | φως | light |
 | ⚆⪏⊢⪏ | χαρα | χαρά | joy |
 | ⚆⊢⇲⊣⇲◉ | χρονοσ | χρόνος | time |
 | ⚆↪⊢⪏ | χωρα | χώρα | country |
-| ⊜⪏⊢↔ | ψαρι | ψάρι | fish |
+| ⊜⪏⊢<-> | ψαρι | ψάρι | fish |
 | ⊜⊤⚆⊛ | ψυχη | ψυχή | soul |
 | ↪⊠⊞⪏⊣⇲◉ | ωκεανοσ | ωκεανός | ocean |
 | ↪⊢⪏ | ωρα | ώρα | hour |
