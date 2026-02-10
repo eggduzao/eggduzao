@@ -1,120 +1,107 @@
 #!/usr/bin/env bash
-# ✨ clean.sh — HYPERGLAM repo detox (macOS + Python) ✨
-# Usage:
-#   DRY_RUN=1 ./clean.sh    # preview
-#   ./clean.sh              # actually delete
-#
-# Notes:
-# - Safe-ish: skips .git and never touches outside project root.
-# - Fixes your main bug: rmrf isn't visible inside `find -exec bash -c ...` subshells.
+set -euo pipefail
 
-set -Eeuo pipefail
+# ------------------------------------------------------------------------------
+# Configuration
+# ------------------------------------------------------------------------------
 
-DRY_RUN="${DRY_RUN:-0}"
-FIND_ROOT="."
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CHALLENGES_DIR="$ROOT_DIR"
+PYTHON="${PYTHON:-python3}"
 
-say()  { printf '%b\n' "$*"; }
-ok()   { say "✅ $*"; }
-info() { say "✨ $*"; }
-warn() { say "⚠️  $*"; }
+# ------------------------------------------------------------------------------
+# Helpers
+# ------------------------------------------------------------------------------
 
-rmrf() {
-  if [[ "$DRY_RUN" == "1" ]]; then
-    printf '🧹 (dry-run) rm -rf %q\n' "$@"
-  else
-    printf '🧹 rm -rf %q\n' "$@"
-    rm -rf -- "$@"
-  fi
+die() {
+  echo "error: $*" >&2
+  exit 1
 }
 
-# Delete files (via find) with glam output + dry-run support
-find_del_files() {
-  local root="$1"; shift
-  if [[ ! -e "$root" ]]; then
-    return 0
-  fi
+usage() {
+  cat <<'EOF'
+Stack Overflow Challenges Runner
 
-  if [[ "$DRY_RUN" == "1" ]]; then
-    # print what would be deleted
-    find "$root" -path "./.git" -prune -o -path "./.git/*" -prune -o \
-      -type f "$@" -print 2>/dev/null \
-      | sed 's/^/🧹 (dry-run) rm -f /'
-  else
-    # print then delete (portable: no -delete surprises)
-    find "$root" -path "./.git" -prune -o -path "./.git/*" -prune -o \
-      -type f "$@" -print -exec rm -f -- {} + 2>/dev/null
-  fi
+Usage:
+  ./run.sh challenge15 <command> [options]
+
+Commands (challenge15):
+  solve             Run the Alien Dictionary solver
+  generate-easy     Generate easy input dictionaries
+  generate-hard     Generate adversarial (stress-test) dictionaries
+  generate-symb     Generate Unicode symbol alphabets
+  help              Show this help
+
+Examples:
+  ./run.sh challenge15 help
+  ./run.sh challenge15 generate-symb
+  ./run.sh challenge15 generate-easy
+  ./run.sh challenge15 generate-hard
+  ./run.sh challenge15 solve
+
+Notes:
+- Outputs are written to the challenge-local folders:
+  symbols/, input/, output/
+- All scripts use only the Python standard library.
+EOF
 }
 
-# Delete directories (via find) with glam output + dry-run support
-find_del_dirs() {
-  local root="$1"; shift
-  if [[ ! -e "$root" ]]; then
-    return 0
-  fi
+# ------------------------------------------------------------------------------
+# Challenge 15 dispatcher
+# ------------------------------------------------------------------------------
 
-  if [[ "$DRY_RUN" == "1" ]]; then
-    find "$root" -path "./.git" -prune -o -path "./.git/*" -prune -o \
-      -type d "$@" -print 2>/dev/null \
-      | sed 's/^/🧹 (dry-run) rm -rf /'
-  else
-    # Use -prune + -exec rm -rf to reliably delete matching dirs
-    find "$root" -path "./.git" -prune -o -path "./.git/*" -prune -o \
-      -type d "$@" -print -prune -exec rm -rf -- {} + 2>/dev/null
-  fi
+challenge15() {
+  local cmd="${1:-help}"
+  shift || true
+
+  local CH_DIR="$CHALLENGES_DIR/2026-02-challenge15"
+
+  case "$cmd" in
+    help|-h|--help)
+      usage
+      ;;
+
+    solve)
+      "$PYTHON" "$CH_DIR/alien_dictionary.py" "$@"
+      ;;
+
+    generate-easy)
+      "$PYTHON" "$CH_DIR/simple_dictionary_generator.py" "$@"
+      ;;
+
+    generate-hard)
+      "$PYTHON" "$CH_DIR/adversarial_dictionary_generator.py" "$@"
+      ;;
+
+    generate-symb)
+      "$PYTHON" "$CH_DIR/unicode_alphabet.py" "$@"
+      ;;
+
+    *)
+      die "unknown command for challenge15: '$cmd'"
+      ;;
+  esac
 }
 
-info "Cleaning up Python project clutter… (DRY_RUN=$DRY_RUN)"
+# ------------------------------------------------------------------------------
+# Top-level router
+# ------------------------------------------------------------------------------
 
-# --- Python bytecode & caches -------------------------------------------------
-info "Bytecode & caches"
-find_del_dirs "$FIND_ROOT" -name "__pycache__"
-find_del_files "$FIND_ROOT" \( -name "*.py[co]" -o -name "*.pyd" \)
+main() {
+  local challenge="${1:-}"
+  shift || true
 
-# --- build/dist/egg-info ------------------------------------------------------
-info "Build artifacts"
-for d in ./build ./dist ./docs/_build ./__pypackages__ ./pip-wheel-metadata; do
-  [[ -e "$d" ]] && rmrf "$d"
-done
-find_del_dirs "$FIND_ROOT" -name "*.egg-info"
+  case "$challenge" in
+    challenge15)
+      challenge15 "$@"
+      ;;
+    help|-h|--help|"")
+      usage
+      ;;
+    *)
+      die "unknown challenge: '$challenge'"
+      ;;
+  esac
+}
 
-# --- test & typing caches -----------------------------------------------------
-info "Test/typing caches"
-for d in ./.pytest_cache ./.mypy_cache ./.ruff_cache ./htmlcov; do
-  [[ -e "$d" ]] && rmrf "$d"
-done
-# .coverage can be a file OR a dir; handle both
-[[ -e ./.coverage ]] && rmrf ./.coverage
-find_del_files "$FIND_ROOT" \( -name ".coverage" -o -name ".coverage.*" \)
-
-# --- virtual envs / env caches (optional) ------------------------------------
-info "Virtual envs / caches (optional)"
-for d in ./.venv ./.tox ./.nox ./.cache; do
-  [[ -e "$d" ]] && rmrf "$d"
-done
-
-# --- Jupyter checkpoints ------------------------------------------------------
-info "Jupyter checkpoints"
-find_del_dirs "$FIND_ROOT" -name ".ipynb_checkpoints"
-
-# --- Sphinx doctrees ----------------------------------------------------------
-info "Sphinx doctrees"
-find_del_dirs ./docs -name ".doctrees"
-find_del_files ./docs -name "*.doctree"
-
-# --- OS cruft -----------------------------------------------------------------
-info "OS cruft"
-find_del_files "$FIND_ROOT" -name ".DS_Store"
-find_del_files "$FIND_ROOT" -name "Thumbs.db"
-find_del_files "$FIND_ROOT" -name "._*"
-find_del_dirs  "$FIND_ROOT" -name ".Trashes"
-
-# --- backup/editor swap files -------------------------------------------------
-info "Backup/swap files"
-find_del_files "$FIND_ROOT" \( -name "*~" -o -name "*.swp" -o -name "*.bak" \)
-
-# --- compiled extensions (optional) ------------------------------------------
-info "Compiled extensions (optional)"
-find_del_files "$FIND_ROOT" -name "*.so"
-
-ok "Everything Done Under the Sun."
+main "$@"

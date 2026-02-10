@@ -845,3 +845,233 @@ def main(argv: Sequence[str] | None) -> int:
 __all__: list[str] = [
     "main",
 ]
+
+
+
+
+
+
+
+
+
+#!/usr/bin/env python3
+"""
+Stack Overflow Challenges CLI.
+
+This CLI is intentionally small and boring: it dispatches to per-challenge scripts
+living under this folder.
+
+Design goals
+------------
+- stdlib-only
+- stable interface for judges/visitors
+- easy to extend monthly
+- mirrors `run.sh` commands
+
+Examples
+--------
+python challenges/stack_overflow/cli.py challenge15 help
+python challenges/stack_overflow/cli.py challenge15 generate-symb
+python challenges/stack_overflow/cli.py challenge15 generate-easy
+python challenges/stack_overflow/cli.py challenge15 generate-hard
+python challenges/stack_overflow/cli.py challenge15 solve
+"""
+
+from __future__ import annotations
+
+import argparse
+import subprocess
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+from typing import NoReturn
+
+
+# ------------------------------------------------------------------------------
+# Paths / Registry
+# ------------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class Challenge:
+    """Registry entry for a single monthly challenge."""
+
+    name: str
+    folder: str  # relative to this file's directory
+
+
+def _here() -> Path:
+    return Path(__file__).resolve().parent
+
+
+def _challenge_dir(ch: Challenge) -> Path:
+    return _here() / ch.folder
+
+
+CHALLENGES: dict[str, Challenge] = {
+    "challenge15": Challenge(name="challenge15", folder="2026-02-challenge15"),
+}
+
+
+# ------------------------------------------------------------------------------
+# Helpers
+# ------------------------------------------------------------------------------
+
+
+def _die(msg: str, *, code: int = 2) -> NoReturn:
+    print(f"error: {msg}", file=sys.stderr)
+    raise SystemExit(code)
+
+
+def _run_python(script: Path, args: list[str]) -> int:
+    """
+    Run a Python script as a subprocess, passing through stdout/stderr.
+
+    Parameters
+    ----------
+    script:
+        Path to a python file.
+    args:
+        Remaining argv to pass to the script.
+
+    Returns
+    -------
+    int
+        Process exit code.
+    """
+    if not script.exists():
+        _die(f"script not found: {script}")
+
+    # Use the current interpreter for maximal compatibility with venvs.
+    cmd = [sys.executable, str(script), *args]
+    proc = subprocess.run(cmd)
+    return int(proc.returncode)
+
+
+def _print_index() -> None:
+    print("Available challenges:")
+    for key, ch in sorted(CHALLENGES.items()):
+        print(f"  - {key} ({ch.folder}/)")
+
+
+# ------------------------------------------------------------------------------
+# Argument parsing
+# ------------------------------------------------------------------------------
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        prog="stack_overflow_cli",
+        description="Stack Overflow Monthly Challenges CLI (stdlib-only).",
+        formatter_class=argparse.RawTextHelpFormatter,
+    )
+    p.add_argument(
+        "--list",
+        action="store_true",
+        help="List available challenges and exit.",
+    )
+
+    sub = p.add_subparsers(dest="challenge", metavar="<challenge>")
+
+    # challenge15 --------------------------------------------------------------
+    c15 = sub.add_parser(
+        "challenge15",
+        help="2026-02 Challenge 15: Alien Dictionary",
+        formatter_class=argparse.RawTextHelpFormatter,
+    )
+    c15_sub = c15.add_subparsers(dest="command", metavar="<command>")
+
+    def _add_passthrough_cmd(name: str, help_text: str) -> None:
+        cmd_p = c15_sub.add_parser(
+            name,
+            help=help_text,
+            add_help=True,
+            formatter_class=argparse.RawTextHelpFormatter,
+        )
+        cmd_p.add_argument(
+            "args",
+            nargs=argparse.REMAINDER,
+            help="Arguments forwarded to the underlying script.",
+        )
+
+    _add_passthrough_cmd("help", "Show help for challenge15 and its commands.")
+    _add_passthrough_cmd("solve", "Run the solver (alien_dictionary.py).")
+    _add_passthrough_cmd("generate-easy", "Generate easy inputs (simple_dictionary_generator.py).")
+    _add_passthrough_cmd("generate-hard", "Generate adversarial inputs (adversarial_dictionary_generator.py).")
+    _add_passthrough_cmd("generate-symb", "Generate unicode symbols (unicode_alphabet.py).")
+
+    return p
+
+
+# ------------------------------------------------------------------------------
+# Dispatch
+# ------------------------------------------------------------------------------
+
+
+def _dispatch_challenge15(command: str | None, passthrough: list[str]) -> int:
+    ch = CHALLENGES["challenge15"]
+    ch_dir = _challenge_dir(ch)
+
+    if command in (None, "help"):
+        # Print the challenge15 help (not global help).
+        # This is nicer than forcing users to remember -h flags.
+        print(
+            "challenge15 (2026-02): Alien Dictionary\n\n"
+            "Commands:\n"
+            "  solve           Run solver\n"
+            "  generate-easy   Generate easy inputs\n"
+            "  generate-hard   Generate adversarial inputs\n"
+            "  generate-symb   Generate unicode symbol sets\n\n"
+            "Examples:\n"
+            "  python cli.py challenge15 generate-symb\n"
+            "  python cli.py challenge15 generate-easy\n"
+            "  python cli.py challenge15 generate-hard\n"
+            "  python cli.py challenge15 solve\n"
+            "\n"
+            "Note: any extra args after the command are passed to the underlying script.\n"
+        )
+        return 0
+
+    mapping: dict[str, str] = {
+        "solve": "alien_dictionary.py",
+        "generate-easy": "simple_dictionary_generator.py",
+        "generate-hard": "adversarial_dictionary_generator.py",
+        "generate-symb": "unicode_alphabet.py",
+    }
+
+    script_name = mapping.get(command)
+    if script_name is None:
+        _die(f"unknown command for challenge15: {command!r}")
+
+    script = ch_dir / script_name
+    # argparse.REMAINDER preserves a leading "--"; sometimes it also includes a
+    # leading "--" separator; we don't need special handling, just forward.
+    return _run_python(script, passthrough)
+
+
+def main(argv: list[str] | None = None) -> int:
+    p = build_parser()
+    ns = p.parse_args(argv)
+
+    if ns.list:
+        _print_index()
+        return 0
+
+    if ns.challenge is None:
+        p.print_help()
+        return 0
+
+    if ns.challenge == "challenge15":
+        # ns.command may be None; ns.args exists only on leaf parsers, so be safe:
+        passthrough = getattr(ns, "args", [])
+        # argparse REMAINDER includes the leading "--" separator if user wrote it.
+        if passthrough and passthrough[0] == "--":
+            passthrough = passthrough[1:]
+        return _dispatch_challenge15(ns.command, passthrough)
+
+    _die(f"unknown challenge: {ns.challenge!r}")
+    return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
