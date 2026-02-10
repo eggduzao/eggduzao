@@ -20,8 +20,8 @@
 
   "executionEnvironments": [
     {
-      "root": "/Users/egg/Projects/eggduzao/",
-      "extraPaths": ["stack_overflow/"]
+      "root": ".",
+      "extraPaths": ["src"]
     }
   ]
 }

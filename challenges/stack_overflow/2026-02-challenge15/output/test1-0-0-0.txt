@@ -1,0 +1,11 @@
+# Ordered sequence:
+
+
+# Encoding of the file: utf-8-sig
+# Total number of lines: 0
+# Number of lines used: 0
+# Number of lines cleaned out: 0
+# Set of unique symbols (non-ordered): {}
+
+--------------------------------------------------
+
