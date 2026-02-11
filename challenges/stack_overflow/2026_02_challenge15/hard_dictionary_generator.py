@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: MIT
-# alien_dictionary_generator.py
+# hard_dictionary_generator.py
 """
-StackOverflow Challenges | Alien Dictionary Generator
-=====================================================
+StackOverflow Challenges | Alien Dictionary | Hard Dictionary Generator
+=======================================================================
 
 Generate a synthetic "alien dictionary" (a list of words) whose implied character
 ordering (via the classic Alien Dictionary constraints) is consistent with a
@@ -34,11 +34,11 @@ Examples
 --------
 Minimal (read symbols, write 1000 words to stdout):
 
->>> python alien_dictionary_generator.py --input-path symbols.txt --input-words 1000
+>>> python hard_dictionary_generator.py --input-path symbols.txt --input-words 1000
 
 Write to file, unique-order enforced:
 
->>> python alien_dictionary_generator.py \
+>>> python hard_dictionary_generator.py \
 ...   --input-path symbols.txt \
 ...   --output-path alien_words.txt \
 ...   --input-words 5000 \
@@ -50,7 +50,7 @@ Write to file, unique-order enforced:
 Create an intentionally ambiguous dictionary (only enforce the chain for the
 first 8 symbols; remaining symbols float):
 
->>> python alien_dictionary_generator.py \
+>>> python hard_dictionary_generator.py \
 ...   --input-path symbols.txt \
 ...   --output-path alien_words_ambiguous.txt \
 ...   --input-words 2000 \

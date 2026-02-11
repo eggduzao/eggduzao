@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: MIT
-# mapper.py
+# dictionary_mapper.py
 """
-StackOverflow Challenges | Alien Dictionary Mapper
-==================================================
+StackOverflow Challenges | Alien Dictionary | Mapper
+====================================================
 
 Usage:
     python mapper.py input_path.txt dictionary_path.txt output_path.txt

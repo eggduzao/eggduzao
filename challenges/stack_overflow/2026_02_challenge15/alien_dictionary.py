@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: MIT
-# challenge15.py
+# alien_dictionary.py
 """
-StackOverflow Challenges | Alien Dictionary
-===========================================
+StackOverflow Challenges | Alien Dictionary | Alien Dictionary
+==============================================================
 
 Compute a valid symbol ordering (an "alphabet") from an *alien dictionary*-a list of
 words already sorted according to some unknown lexicographic order.

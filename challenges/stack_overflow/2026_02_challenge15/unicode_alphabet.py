@@ -1,3 +1,16 @@
+# SPDX-License-Identifier: MIT
+# main.py
+"""
+StackOverflow Challenges | Alien Dictionary | Unicode Alphabet Generator
+========================================================================
+
+Metadata
+--------
+- Project: StackOverflow Challenges
+- License: MIT
+"""
+
+
 from pathlib import Path
 
 
