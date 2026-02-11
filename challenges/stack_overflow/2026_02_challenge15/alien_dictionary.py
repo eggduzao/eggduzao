@@ -115,9 +115,9 @@ Assuming you expose a CLI entry point that:
 
 you might run:
 
-$ python challenge_15.py --help
-$ python challenge_15 ./input/original-so.txt
-$ python challenge_15 ./input/original-so -o ./output/original-so.txt
+$ python alien_dictionary.py --help
+$ python alien_dictionary.py ./input/original-so.txt
+$ python alien_dictionary.py ./input/original-so -o ./output/original-so.txt
 
 Input format example (input.txt):
 
@@ -601,7 +601,7 @@ __all__: list[str] = [
 
 
 # -------------------------------------------------------------------------------------
-# Test | python challenge_15.py input-utf8.txt > out.txt 2>&1
+# Test | python alien_dictionary.py input-utf8.txt > out.txt 2>&1
 # -------------------------------------------------------------------------------------
 if __name__ == "__main__":
     raise SystemExit(main())
